@@ -1,0 +1,6 @@
+streamlit==1.32.0
+pandas
+pydantic
+html2image
+Jinja2
+Pillow

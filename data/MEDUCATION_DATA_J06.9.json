@@ -1,0 +1,532 @@
+{
+  "ExtractionChecklist": {
+    "renal_risks_found": [
+      "moderate to severe renal dysfunction",
+      "eGFR < 30",
+      "advanced renal failure"
+    ],
+    "hepatic_risks_found": [
+      "severe hepatic impairment",
+      "decompensated cirrhosis"
+    ],
+    "cardiovascular_risks_found": [
+      "severe/uncontrolled hypertension",
+      "coronary artery disease",
+      "heart rate increase"
+    ],
+    "social_and_race_risks_found": [
+      "Black race",
+      "household air pollution",
+      "ambient particulate matter",
+      "overcrowding"
+    ]
+  },
+  "Data": [
+    {
+      "ICD10_ID": "J06.9",
+      "Section_ID": "SEC_01_DEF",
+      "Bullet_ID": "B1",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "",
+      "Route_Icon": "",
+      "Statement_Text": "This is an infection of the upper breathing tubes, involving the nose, sinuses, throat, and voice box. It is mostly caused by a virus.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Wang et al., 2021"
+    },
+    {
+      "ICD10_ID": "J06.9",
+      "Section_ID": "SEC_01_DEF",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "",
+      "Route_Icon": "",
+      "Statement_Text": "The virus enters the body and causes the lining of the breathing tubes to swell. This leads to widened blood vessels, extra fluid, a blocked nose, and an irritated throat.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Aramă et al., 2023"
+    },
+    {
+      "ICD10_ID": "J06.9",
+      "Section_ID": "SEC_01_DEF",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "",
+      "Route_Icon": "",
+      "Statement_Text": "The illness is normally short and gets better on its own. It is mainly treated by resting and managing the symptoms.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Pelzman & Tung, 2021"
+    },
+    {
+      "ICD10_ID": "J06.9",
+      "Section_ID": "SEC_02_ETI",
+      "Bullet_ID": "B1",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "",
+      "Route_Icon": "",
+      "Statement_Text": "More than 90% of cases are caused by common viruses, rather than bacteria.",
+      "Nuance_Transition": "",
+      "Reference_Link": "K et al., 2024"
+    },
+    {
+      "ICD10_ID": "J06.9",
+      "Section_ID": "SEC_02_ETI",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "",
+      "Route_Icon": "",
+      "Statement_Text": "Certain environmental conditions and daily habits can make the infection worse.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Jin et al., 2021"
+    },
+    {
+      "ICD10_ID": "J06.9",
+      "Section_ID": "SEC_02_ETI",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "",
+      "Route_Icon": "",
+      "Statement_Text": "There are certain natural factors that can make a person more likely to need a hospital visit.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Xu et al., 2025"
+    },
+    {
+      "ICD10_ID": "J06.9",
+      "Section_ID": "SEC_02_ETI",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Age_Infant_1_12m",
+      "Med_Class_ID": "",
+      "Route_Icon": "",
+      "Statement_Text": "Hospital admissions and severe complications are recorded more frequently during the first six months of life.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Xu et al., 2025"
+    },
+    {
+      "ICD10_ID": "J06.9",
+      "Section_ID": "SEC_02_ETI",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Age_Elderly_65_79y",
+      "Med_Class_ID": "",
+      "Route_Icon": "",
+      "Statement_Text": "The need for a hospital stay increases significantly after 60 years of age.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Wang et al., 2021"
+    },
+    {
+      "ICD10_ID": "J06.9",
+      "Section_ID": "SEC_02_ETI",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Sex_Male",
+      "Med_Class_ID": "",
+      "Route_Icon": "",
+      "Statement_Text": "Hospital admission rates are historically higher across multiple breathing viruses.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Waxse et al., 2025"
+    },
+    {
+      "ICD10_ID": "J06.9",
+      "Section_ID": "SEC_02_ETI",
+      "Bullet_ID": "B3",
+      "Target_Variable": "BMI_Morbidly_Obese_40_Plus",
+      "Med_Class_ID": "",
+      "Route_Icon": "",
+      "Statement_Text": "Severely elevated body weight is a direct predictor of hospital admission.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Waxse et al., 2025"
+    },
+    {
+      "ICD10_ID": "J06.9",
+      "Section_ID": "SEC_02_ETI",
+      "Bullet_ID": "B3",
+      "Target_Variable": "BMI_Underweight",
+      "Med_Class_ID": "",
+      "Route_Icon": "",
+      "Statement_Text": "Poor nutrition strongly predicts the development of a severe lung infection.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Mugopal et al., 2021"
+    },
+    {
+      "ICD10_ID": "J06.9",
+      "Section_ID": "SEC_03_IMP",
+      "Bullet_ID": "B1",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "",
+      "Route_Icon": "",
+      "Statement_Text": "Symptoms include a blocked or runny nose, sore throat, cough, and sometimes a fever.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Pelzman & Tung, 2021"
+    },
+    {
+      "ICD10_ID": "J06.9",
+      "Section_ID": "SEC_03_IMP",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "",
+      "Route_Icon": "",
+      "Statement_Text": "The blocked nose makes it hard to breathe normally and causes poor sleep quality.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Eccles et al., 2005"
+    },
+    {
+      "ICD10_ID": "J06.9",
+      "Section_ID": "SEC_03_IMP",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "",
+      "Route_Icon": "",
+      "Statement_Text": "The illness causes a drop in daily quality of life and leads to missed days at work or school.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Jin et al., 2021"
+    },
+    {
+      "ICD10_ID": "J06.9",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B1",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "PARACETAMOL",
+      "Route_Icon": "",
+      "Statement_Text": "This medicine works in the brain to reduce fever and pain. The liver breaks down the medicine over a few hours.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Kanabar, 2017"
+    },
+    {
+      "ICD10_ID": "J06.9",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "PARACETAMOL",
+      "Route_Icon": "icon_route_oral.png",
+      "Statement_Text": "It is used as a short-term option to handle pain and high body temperature.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Alchin et al., 2022"
+    },
+    {
+      "ICD10_ID": "J06.9",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "PARACETAMOL",
+      "Route_Icon": "icon_warning.png",
+      "Statement_Text": "Mild stomach upset or feeling sick to the stomach can happen. If too much is taken, it can cause severe damage to the liver.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Marano et al., 2023"
+    },
+    {
+      "ICD10_ID": "J06.9",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B4",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "PARACETAMOL",
+      "Route_Icon": "",
+      "Statement_Text": "The medicine is normally processed by the liver without problems when taken at the correct dose.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Mian et al., 2018"
+    },
+    {
+      "ICD10_ID": "J06.9",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B4",
+      "Target_Variable": "Age_Frail_Elderly_80_Plus",
+      "Med_Class_ID": "PARACETAMOL",
+      "Route_Icon": "",
+      "Statement_Text": "The body clears this medicine up to 45.7% slower. Doses need to be individualized carefully.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Mian et al., 2018"
+    },
+    {
+      "ICD10_ID": "J06.9",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B4",
+      "Target_Variable": "BMI_Morbidly_Obese_40_Plus",
+      "Med_Class_ID": "PARACETAMOL",
+      "Route_Icon": "",
+      "Statement_Text": "The way the medicine spreads through the body changes. Higher doses might be needed to reach the right levels, but the dose must be checked to avoid harm.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Zempsky et al., 2020"
+    },
+    {
+      "ICD10_ID": "J06.9",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B1",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "IBUPROFEN",
+      "Route_Icon": "",
+      "Statement_Text": "This medicine blocks the body from making the chemicals that cause swelling, pain, and fever.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Martinelli et al., 2021"
+    },
+    {
+      "ICD10_ID": "J06.9",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "IBUPROFEN",
+      "Route_Icon": "icon_route_oral.png",
+      "Statement_Text": "It is taken to bring down a fever and ease aches.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Abushanab & Al-Badriyeh, 2021"
+    },
+    {
+      "ICD10_ID": "J06.9",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "IBUPROFEN",
+      "Route_Icon": "icon_warning.png",
+      "Statement_Text": "It can cause stomach pain, feeling sick, or even bleeding in the stomach. The risk of these side effects is linked to taking too much or taking it for too long.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Martinelli et al., 2021"
+    },
+    {
+      "ICD10_ID": "J06.9",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B4",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "IBUPROFEN",
+      "Route_Icon": "",
+      "Statement_Text": "It is quickly absorbed by the body. Taking it with food helps protect the stomach.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Martinelli et al., 2021"
+    },
+    {
+      "ICD10_ID": "J06.9",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B1",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "PSEUDOEPHEDRINE",
+      "Route_Icon": "",
+      "Statement_Text": "This medicine squeezes the blood vessels in the nose. This helps open up the breathing tubes.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Aramă et al., 2023"
+    },
+    {
+      "ICD10_ID": "J06.9",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "PSEUDOEPHEDRINE",
+      "Route_Icon": "icon_route_oral.png",
+      "Statement_Text": "It is used to clear a blocked nose and make it easier to breathe.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Eccles et al., 2005"
+    },
+    {
+      "ICD10_ID": "J06.9",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "PSEUDOEPHEDRINE",
+      "Route_Icon": "icon_warning.png",
+      "Statement_Text": "It can cause a faster heartbeat, trouble sleeping, and feeling nervous or jittery.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Głowacka & Wiela-Hojeńska, 2021"
+    },
+    {
+      "ICD10_ID": "J06.9",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B4",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "PSEUDOEPHEDRINE",
+      "Route_Icon": "",
+      "Statement_Text": "The kidneys remove most of the medicine from the body in the urine over a few hours.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Głowacka & Wiela-Hojeńska, 2021"
+    },
+    {
+      "ICD10_ID": "J06.9",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B4",
+      "Target_Variable": "Renal_Impaired_Severe_ESRD",
+      "Med_Class_ID": "PSEUDOEPHEDRINE",
+      "Route_Icon": "icon_warning.png",
+      "Statement_Text": "This medicine must not be used at all. The kidneys cannot clear the drug from the body safely.",
+      "Nuance_Transition": "OVERRIDE",
+      "Reference_Link": "Aramă et al., 2023"
+    },
+    {
+      "ICD10_ID": "J06.9",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B4",
+      "Target_Variable": "Hepatic_Impaired",
+      "Med_Class_ID": "PSEUDOEPHEDRINE",
+      "Route_Icon": "icon_warning.png",
+      "Statement_Text": "This medicine must not be used if the liver is severely damaged.",
+      "Nuance_Transition": "OVERRIDE",
+      "Reference_Link": "Aramă et al., 2023"
+    },
+    {
+      "ICD10_ID": "J06.9",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B1",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "DEXTROMETHORPHAN",
+      "Route_Icon": "",
+      "Statement_Text": "This medicine works on the brain to block the reflex that makes the body cough.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Silva & Dinis-Oliveira, 2020"
+    },
+    {
+      "ICD10_ID": "J06.9",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "DEXTROMETHORPHAN",
+      "Route_Icon": "icon_route_oral.png",
+      "Statement_Text": "It is used to calm down a dry, irritating cough that does not bring up any mucus.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Silva & Dinis-Oliveira, 2020"
+    },
+    {
+      "ICD10_ID": "J06.9",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "DEXTROMETHORPHAN",
+      "Route_Icon": "icon_warning.png",
+      "Statement_Text": "It can cause feeling dizzy, sleepy, or confused.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Jian-Mi, 2009"
+    },
+    {
+      "ICD10_ID": "J06.9",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B4",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "DEXTROMETHORPHAN",
+      "Route_Icon": "",
+      "Statement_Text": "The liver breaks it down. The speed of this process varies a lot from person to person.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Silva & Dinis-Oliveira, 2020"
+    },
+    {
+      "ICD10_ID": "J06.9",
+      "Section_ID": "SEC_05_MNG",
+      "Bullet_ID": "B1",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "",
+      "Route_Icon": "",
+      "Statement_Text": "Taking honey can improve cough frequency and severity, offering a cheap option for symptom relief.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Abuelgasim et al., 2020"
+    },
+    {
+      "ICD10_ID": "J06.9",
+      "Section_ID": "SEC_05_MNG",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "",
+      "Route_Icon": "",
+      "Statement_Text": "Pacing daily activities and using a handheld fan can help control breathing symptoms while the body heals.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Holland et al., 2024"
+    },
+    {
+      "ICD10_ID": "J06.9",
+      "Section_ID": "SEC_05_MNG",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "",
+      "Route_Icon": "",
+      "Statement_Text": "Using a barrier nasal spray early can trap the virus and help stop it from spreading.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Wang et al., 2021"
+    },
+    {
+      "ICD10_ID": "J06.9",
+      "Section_ID": "SEC_06_FLG",
+      "Bullet_ID": "B1",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "",
+      "Route_Icon": "icon_warning.png",
+      "Statement_Text": "Watch out for a fever that lasts for 3 days or more, thick yellow or green mucus, or facial pain. Also, watch out if symptoms get better and then suddenly get worse again.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Harris et al., 2016"
+    },
+    {
+      "ICD10_ID": "J06.9",
+      "Section_ID": "SEC_06_FLG",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "PARACETAMOL",
+      "Route_Icon": "icon_warning.png",
+      "Statement_Text": "Taking more than the recommended amount can severely damage the liver.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Kanabar, 2017"
+    },
+    {
+      "ICD10_ID": "J06.9",
+      "Section_ID": "SEC_06_FLG",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "IBUPROFEN",
+      "Route_Icon": "icon_warning.png",
+      "Statement_Text": "Long-term use can harm the stomach and kidneys.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Martinelli et al., 2021"
+    },
+    {
+      "ICD10_ID": "J06.9",
+      "Section_ID": "SEC_06_FLG",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "PSEUDOEPHEDRINE",
+      "Route_Icon": "icon_warning.png",
+      "Statement_Text": "This medicine must not be used at all if taking certain mood medicines called MAOIs within the last 14 days.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Głowacka & Wiela-Hojeńska, 2021"
+    },
+    {
+      "ICD10_ID": "J06.9",
+      "Section_ID": "SEC_06_FLG",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "DEXTROMETHORPHAN",
+      "Route_Icon": "icon_warning.png",
+      "Statement_Text": "Mixing this with other medicines can cause unexpected side effects due to how the body breaks it down.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Silva & Dinis-Oliveira, 2020"
+    },
+    {
+      "ICD10_ID": "J06.9",
+      "Section_ID": "SEC_06_FLG",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "",
+      "Route_Icon": "icon_warning.png",
+      "Statement_Text": "A hospital visit is needed if breathing becomes very hard or if a high fever does not go down with medicine.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Harris et al., 2016"
+    },
+    {
+      "ICD10_ID": "J06.9",
+      "Section_ID": "SEC_07_SUC",
+      "Bullet_ID": "B1",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "",
+      "Route_Icon": "",
+      "Statement_Text": "The main goal is to relieve symptoms early on, without needing antibiotics.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Wang et al., 2021"
+    },
+    {
+      "ICD10_ID": "J06.9",
+      "Section_ID": "SEC_07_SUC",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "",
+      "Route_Icon": "",
+      "Statement_Text": "Success is measured by a clear nose, easier breathing, and fewer coughs by day five.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Min, 2005"
+    },
+    {
+      "ICD10_ID": "J06.9",
+      "Section_ID": "SEC_07_SUC",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "",
+      "Route_Icon": "",
+      "Statement_Text": "Managing the illness properly right away helps avoid further issues like ear infections or lung infections.",
+      "Nuance_Transition": "",
+      "Reference_Link": "K et al., 2024"
+    }
+  ]
+}

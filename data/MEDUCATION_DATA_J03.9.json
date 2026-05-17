@@ -1,0 +1,466 @@
+{
+  "ExtractionChecklist": {
+    "renal_risks_found": [
+      "Neonatal whole-body hypothermia decreases renal elimination of penicillins by 20-40%"
+    ],
+    "hepatic_risks_found": [
+      "None"
+    ],
+    "cardiovascular_risks_found": [
+      "Acute Rheumatic Fever (ARF)",
+      "Rheumatic Heart Disease (RHD)",
+      "Myocarditis",
+      "QT Prolongation with Azithromycin"
+    ],
+    "social_and_race_risks_found": [
+      "Overcrowded housing",
+      "Poor sanitation",
+      "13% prevalence in 5-15 year olds in developing regions like India"
+    ]
+  },
+  "Data": [
+    {
+      "ICD10_ID": "J03.9",
+      "Section_ID": "SEC_01_DEF",
+      "Bullet_ID": "B1",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "Acute pharyngotonsillitis is an inflammatory infection of the throat and tonsils.",
+      "Reference_Link": "Leung et al., 2023",
+      "Nuance_Transition": "",
+      "Route_Icon": ""
+    },
+    {
+      "ICD10_ID": "J03.9",
+      "Section_ID": "SEC_01_DEF",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "The bacteria invade the throat tissues, causing swelling, pain, and the formation of white spots.",
+      "Reference_Link": "Eroğlu et al., 2024",
+      "Nuance_Transition": "",
+      "Route_Icon": ""
+    },
+    {
+      "ICD10_ID": "J03.9",
+      "Section_ID": "SEC_01_DEF",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "The infection normally clears up with right away medical care, but can lead to severe heart problems if the bacteria are not fully removed.",
+      "Reference_Link": "Liang et al., 2023",
+      "Nuance_Transition": "",
+      "Route_Icon": ""
+    },
+    {
+      "ICD10_ID": "J03.9",
+      "Section_ID": "SEC_02_ETI",
+      "Bullet_ID": "B1",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "The main cause is a bacteria called Group A Streptococcus.",
+      "Reference_Link": "Leung et al., 2023",
+      "Nuance_Transition": "",
+      "Route_Icon": ""
+    },
+    {
+      "ICD10_ID": "J03.9",
+      "Section_ID": "SEC_02_ETI",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "The bacteria spreads easily from person to person through direct contact with mucus or droplets from coughs and sneezes.",
+      "Reference_Link": "Liang et al., 2023",
+      "Nuance_Transition": "",
+      "Route_Icon": ""
+    },
+    {
+      "ICD10_ID": "J03.9",
+      "Section_ID": "SEC_02_ETI",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Logistical_No_Clean_Water",
+      "Statement_Text": "In developing areas with lower sanitation, there is a proven 13% infection rate when presenting with a sore throat.",
+      "Reference_Link": "Schmutzler et al., 2022",
+      "Nuance_Transition": "",
+      "Route_Icon": ""
+    },
+    {
+      "ICD10_ID": "J03.9",
+      "Section_ID": "SEC_02_ETI",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "Certain strains of the bacteria possess genetic traits that naturally make them more likely to cause severe sickness.",
+      "Reference_Link": "Rampersadh et al., 2024",
+      "Nuance_Transition": "",
+      "Route_Icon": ""
+    },
+    {
+      "ICD10_ID": "J03.9",
+      "Section_ID": "SEC_02_ETI",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Age_Child_4_12y",
+      "Statement_Text": "There is a peak risk of infection and the development of related heart problems between ages 5 and 15.",
+      "Reference_Link": "Liang et al., 2023",
+      "Nuance_Transition": "",
+      "Route_Icon": ""
+    },
+    {
+      "ICD10_ID": "J03.9",
+      "Section_ID": "SEC_03_IMP",
+      "Bullet_ID": "B1",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "Expect a very sore throat, painful swallowing, fever, swollen neck glands, and white spots on the tonsils. Coughing and a runny nose are not normally seen.",
+      "Reference_Link": "Eroğlu et al., 2024",
+      "Nuance_Transition": "",
+      "Route_Icon": ""
+    },
+    {
+      "ICD10_ID": "J03.9",
+      "Section_ID": "SEC_03_IMP",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "Painful swallowing can make it very hard to eat food or drink enough fluids to stay hydrated.",
+      "Reference_Link": "Eroğlu et al., 2024",
+      "Nuance_Transition": "",
+      "Route_Icon": ""
+    },
+    {
+      "ICD10_ID": "J03.9",
+      "Section_ID": "SEC_03_IMP",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "The sudden pain and high fever can make it hard to rest comfortably and complete daily tasks.",
+      "Reference_Link": "Leung et al., 2023",
+      "Nuance_Transition": "",
+      "Route_Icon": ""
+    },
+    {
+      "ICD10_ID": "J03.9",
+      "Section_ID": "SEC_04_TX",
+      "Med_Class_ID": "PENICILLIN_V",
+      "Bullet_ID": "B1",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "This medicine works by stopping the bacteria from building their outer walls, causing them to break apart and die.",
+      "Reference_Link": "Huang et al., 2023",
+      "Nuance_Transition": "",
+      "Route_Icon": ""
+    },
+    {
+      "ICD10_ID": "J03.9",
+      "Section_ID": "SEC_04_TX",
+      "Med_Class_ID": "PENICILLIN_V",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "It is taken by mouth for a full 10 days to completely clear the bacteria from the throat.",
+      "Reference_Link": "Leung et al., 2023",
+      "Nuance_Transition": "",
+      "Route_Icon": "icon_route_oral.png"
+    },
+    {
+      "ICD10_ID": "J03.9",
+      "Section_ID": "SEC_04_TX",
+      "Med_Class_ID": "PENICILLIN_V",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "Skin rashes and allergic reactions are the most common side effects.",
+      "Reference_Link": "Thornhill et al., 2019",
+      "Nuance_Transition": "",
+      "Route_Icon": ""
+    },
+    {
+      "ICD10_ID": "J03.9",
+      "Section_ID": "SEC_04_TX",
+      "Med_Class_ID": "PENICILLIN_V",
+      "Bullet_ID": "B4",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "The body clears this medicine quickly, normally dropping by half within one hour.",
+      "Reference_Link": "Barker et al., 2023",
+      "Nuance_Transition": "",
+      "Route_Icon": ""
+    },
+    {
+      "ICD10_ID": "J03.9",
+      "Section_ID": "SEC_04_TX",
+      "Med_Class_ID": "AMOXICILLIN",
+      "Bullet_ID": "B1",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "This medicine stops the bacteria from building their protective walls, causing them to fall apart.",
+      "Reference_Link": "Huang et al., 2023",
+      "Nuance_Transition": "",
+      "Route_Icon": ""
+    },
+    {
+      "ICD10_ID": "J03.9",
+      "Section_ID": "SEC_04_TX",
+      "Med_Class_ID": "AMOXICILLIN",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "It is taken by mouth for 10 days and is often chosen due to having a more pleasant taste.",
+      "Reference_Link": "Cohen, 2004",
+      "Nuance_Transition": "",
+      "Route_Icon": "icon_route_oral.png"
+    },
+    {
+      "ICD10_ID": "J03.9",
+      "Section_ID": "SEC_04_TX",
+      "Med_Class_ID": "AMOXICILLIN",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "Loose stools happen in about 9% of cases, and skin reactions are common.",
+      "Reference_Link": "Udhnawala et al., 2024",
+      "Nuance_Transition": "",
+      "Route_Icon": ""
+    },
+    {
+      "ICD10_ID": "J03.9",
+      "Section_ID": "SEC_04_TX",
+      "Med_Class_ID": "AMOXICILLIN",
+      "Bullet_ID": "B4",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "The medicine needs to stay in the body at a certain level for a long enough time to fully kill the bacteria.",
+      "Reference_Link": "Huynh et al., 2022",
+      "Nuance_Transition": "",
+      "Route_Icon": ""
+    },
+    {
+      "ICD10_ID": "J03.9",
+      "Section_ID": "SEC_04_TX",
+      "Med_Class_ID": "AMOXICILLIN",
+      "Bullet_ID": "B4",
+      "Target_Variable": "Age_Neonate_0_28d",
+      "Statement_Text": "Cooling treatments used in the first weeks of life can slow down how fast the kidneys clear this medicine by 20% to 40%, meaning a lower dose is needed.",
+      "Reference_Link": "Gijsen et al., 2021",
+      "Nuance_Transition": "",
+      "Route_Icon": ""
+    },
+    {
+      "ICD10_ID": "J03.9",
+      "Section_ID": "SEC_04_TX",
+      "Med_Class_ID": "BENZATHINE_PENICILLIN_G",
+      "Bullet_ID": "B1",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "This medicine slowly breaks down the bacterial walls over a long time to keep the infection from returning.",
+      "Reference_Link": "Huang et al., 2023",
+      "Nuance_Transition": "",
+      "Route_Icon": ""
+    },
+    {
+      "ICD10_ID": "J03.9",
+      "Section_ID": "SEC_04_TX",
+      "Med_Class_ID": "BENZATHINE_PENICILLIN_G",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "It is given as a single injection into the muscle to make sure the full treatment is received without needing daily pills.",
+      "Reference_Link": "Shulman et al., 2012",
+      "Nuance_Transition": "",
+      "Route_Icon": ""
+    },
+    {
+      "ICD10_ID": "J03.9",
+      "Section_ID": "SEC_04_TX",
+      "Med_Class_ID": "BENZATHINE_PENICILLIN_G",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "Mild pain and reactions at the injection site are common.",
+      "Reference_Link": "Kado et al., 2023",
+      "Nuance_Transition": "",
+      "Route_Icon": ""
+    },
+    {
+      "ICD10_ID": "J03.9",
+      "Section_ID": "SEC_04_TX",
+      "Med_Class_ID": "BENZATHINE_PENICILLIN_G",
+      "Bullet_ID": "B4",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "The medicine absorbs slowly, peaking around 43 to 48 hours after the injection, and stays in the body for a very long time.",
+      "Reference_Link": "Li et al., 2024",
+      "Nuance_Transition": "",
+      "Route_Icon": ""
+    },
+    {
+      "ICD10_ID": "J03.9",
+      "Section_ID": "SEC_04_TX",
+      "Med_Class_ID": "BENZATHINE_PENICILLIN_G",
+      "Bullet_ID": "B4",
+      "Target_Variable": "BMI_Obese_30_Plus",
+      "Statement_Text": "Higher body weight causes the medicine to absorb much slower, which might change how often the injection is needed for long-term heart protection.",
+      "Reference_Link": "Hand et al., 2019",
+      "Nuance_Transition": "",
+      "Route_Icon": ""
+    },
+    {
+      "ICD10_ID": "J03.9",
+      "Section_ID": "SEC_04_TX",
+      "Med_Class_ID": "AZITHROMYCIN",
+      "Bullet_ID": "B1",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "This medicine stops the bacteria from making the proteins they need to grow and spread.",
+      "Reference_Link": "Methaneethorn et al., 2025",
+      "Nuance_Transition": "",
+      "Route_Icon": ""
+    },
+    {
+      "ICD10_ID": "J03.9",
+      "Section_ID": "SEC_04_TX",
+      "Med_Class_ID": "AZITHROMYCIN",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "It is taken by mouth and is used as an alternative when there is a severe allergy to the main medicines.",
+      "Reference_Link": "Hedin et al., 2023",
+      "Nuance_Transition": "",
+      "Route_Icon": "icon_route_oral.png"
+    },
+    {
+      "ICD10_ID": "J03.9",
+      "Section_ID": "SEC_04_TX",
+      "Med_Class_ID": "AZITHROMYCIN",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "Stomach upset is common, with loose stools happening in up to 9.3% of cases when higher doses are used.",
+      "Reference_Link": "Zeng et al., 2020",
+      "Nuance_Transition": "",
+      "Route_Icon": ""
+    },
+    {
+      "ICD10_ID": "J03.9",
+      "Section_ID": "SEC_04_TX",
+      "Med_Class_ID": "AZITHROMYCIN",
+      "Bullet_ID": "B4",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "The medicine absorbs into the body over 2 to 3 hours and builds up in the tissues for a long time.",
+      "Reference_Link": "Methaneethorn et al., 2025",
+      "Nuance_Transition": "",
+      "Route_Icon": ""
+    },
+    {
+      "ICD10_ID": "J03.9",
+      "Section_ID": "SEC_05_MNG",
+      "Bullet_ID": "B1",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "Drinking enough soft liquids is important to stay hydrated when swallowing is painful.",
+      "Reference_Link": "Leung et al., 2023",
+      "Nuance_Transition": "",
+      "Route_Icon": ""
+    },
+    {
+      "ICD10_ID": "J03.9",
+      "Section_ID": "SEC_05_MNG",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "Getting enough rest helps the body fight off the bacteria and recover faster.",
+      "Reference_Link": "Leung et al., 2023",
+      "Nuance_Transition": "",
+      "Route_Icon": ""
+    },
+    {
+      "ICD10_ID": "J03.9",
+      "Section_ID": "SEC_05_MNG",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "Staying away from others for 12 to 24 hours after starting the medicine is needed to stop the spread of the bacteria.",
+      "Reference_Link": "McGuire et al., 2023",
+      "Nuance_Transition": "",
+      "Route_Icon": ""
+    },
+    {
+      "ICD10_ID": "J03.9",
+      "Section_ID": "SEC_06_FLG",
+      "Bullet_ID": "B1",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "Seek help right away if there is chest pain, as the infection can rarely spread to the heart and cause inflammation.",
+      "Reference_Link": "Pellegrino et al., 2023",
+      "Nuance_Transition": "",
+      "Route_Icon": "icon_warning.png"
+    },
+    {
+      "ICD10_ID": "J03.9",
+      "Section_ID": "SEC_06_FLG",
+      "Med_Class_ID": "PENICILLIN_V",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "Seek help right away if a severe allergic reaction or trouble breathing happens, though the rate is very rare at 0.15 per million.",
+      "Reference_Link": "Thornhill et al., 2019",
+      "Nuance_Transition": "",
+      "Route_Icon": "icon_warning.png"
+    },
+    {
+      "ICD10_ID": "J03.9",
+      "Section_ID": "SEC_06_FLG",
+      "Med_Class_ID": "AMOXICILLIN",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "Seek help right away if severe skin peeling happens, as this is a rare but known risk with this medicine.",
+      "Reference_Link": "Yan et al., 2025",
+      "Nuance_Transition": "",
+      "Route_Icon": "icon_warning.png"
+    },
+    {
+      "ICD10_ID": "J03.9",
+      "Section_ID": "SEC_06_FLG",
+      "Med_Class_ID": "BENZATHINE_PENICILLIN_G",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "Seek help right away if severe skin peeling or an allergic reaction occurs.",
+      "Reference_Link": "Yan et al., 2025",
+      "Nuance_Transition": "",
+      "Route_Icon": "icon_warning.png"
+    },
+    {
+      "ICD10_ID": "J03.9",
+      "Section_ID": "SEC_06_FLG",
+      "Med_Class_ID": "AZITHROMYCIN",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "Seek help right away if the heart feels like it is beating irregularly or fluttering.",
+      "Reference_Link": "Sarayani et al., 2020",
+      "Nuance_Transition": "",
+      "Route_Icon": "icon_warning.png"
+    },
+    {
+      "ICD10_ID": "J03.9",
+      "Section_ID": "SEC_06_FLG",
+      "Med_Class_ID": "AZITHROMYCIN",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Age_Elderly_65_79y",
+      "Statement_Text": "There is a 4.1x higher risk of dangerous irregular heartbeats after age 65.",
+      "Reference_Link": "Zhang et al., 2024",
+      "Nuance_Transition": "",
+      "Route_Icon": "icon_warning.png"
+    },
+    {
+      "ICD10_ID": "J03.9",
+      "Section_ID": "SEC_06_FLG",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "The fever should start going down within one to two days of starting the medicine.",
+      "Reference_Link": "McGuire et al., 2023",
+      "Nuance_Transition": "",
+      "Route_Icon": ""
+    },
+    {
+      "ICD10_ID": "J03.9",
+      "Section_ID": "SEC_07_SUC",
+      "Bullet_ID": "B1",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "The goal is to clear the bacteria completely to stop heart problems from developing later.",
+      "Reference_Link": "Liang et al., 2023",
+      "Nuance_Transition": "",
+      "Route_Icon": ""
+    },
+    {
+      "ICD10_ID": "J03.9",
+      "Section_ID": "SEC_07_SUC",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "Painful swallowing and fever should greatly improve within 24 to 48 hours.",
+      "Reference_Link": "Leung et al., 2023",
+      "Nuance_Transition": "",
+      "Route_Icon": ""
+    },
+    {
+      "ICD10_ID": "J03.9",
+      "Section_ID": "SEC_07_SUC",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "Finishing the full 10 days of medicine clears the bacteria in 97% of cases and lowers the risk of severe heart damage by up to 80%.",
+      "Reference_Link": "McGuire et al., 2023",
+      "Nuance_Transition": "",
+      "Route_Icon": ""
+    }
+  ]
+}

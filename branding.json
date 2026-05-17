@@ -1,0 +1,48 @@
+{
+  "_schema_version": "2.0.0",
+  "client_info": {
+    "client_name": "Demo Medical Clinic",
+    "practice_display": "Intercare Medical Centre"
+  },
+  "assets": {
+    "practice_logo": "logo.png",
+    "doctor_headshot": "doctor.png",
+    "header_bg": "header_bg.png"
+  },
+  "layout_constants": {
+    "mobile_width": 800,
+    "header_height": 320,
+    "card_radius": 25
+  },
+  "theme_map": {
+    "SEC_01_DEF": {
+      "label": "DEFINITION",
+      "primary_color": [0, 74, 153],
+      "bg_tint": [248, 250, 252]
+    },
+    "SEC_02_ETI": {
+      "label": "CAUSES & RISK",
+      "primary_color": [230, 126, 34],
+      "bg_tint": [255, 245, 235]
+    },
+    "SEC_03_IMP": {
+      "label": "ACTION & IMPACT",
+      "primary_color": [40, 167, 69],
+      "bg_tint": [240, 255, 244]
+    },
+    "SEC_04_TX": {
+      "label": "TREATMENT PLAN",
+      "primary_color": [0, 74, 153],
+      "bg_tint": [248, 250, 252]
+    },
+    "SEC_07_FLG": {
+      "label": "WARNING SIGNS",
+      "primary_color": [204, 0, 0],
+      "bg_tint": [255, 245, 245]
+    }
+  },
+  "typography": {
+    "primary_font_bold": "DejaVuSans-Bold.ttf",
+    "primary_font_reg": "DejaVuSans.ttf"
+  }
+}

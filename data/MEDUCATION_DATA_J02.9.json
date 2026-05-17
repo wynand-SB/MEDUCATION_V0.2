@@ -1,0 +1,515 @@
+{
+  "ExtractionChecklist": {
+    "renal_risks_found": [
+      "Renal_Impaired_Severe_ESRD"
+    ],
+    "hepatic_risks_found": [
+      "Hepatic_Impaired"
+    ],
+    "cardiovascular_risks_found": [
+      "None"
+    ],
+    "social_and_race_risks_found": [
+      "Age_Child_4_12y",
+      "Age_Elderly_65_79y",
+      "BMI_Morbidly_Obese_40_Plus"
+    ]
+  },
+  "Data": [
+    {
+      "ICD10_ID": "J02.9",
+      "Section_ID": "SEC_01_DEF",
+      "Bullet_ID": "B1",
+      "Med_Class_ID": "",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "A sore throat is an inflammation of the back of the throat and tonsils, mostly caused by a virus and gets better on its own.",
+      "Nuance_Transition": "",
+      "Route_Icon": "",
+      "Reference_Link": "Pellegrino et al., 2023"
+    },
+    {
+      "ICD10_ID": "J02.9",
+      "Section_ID": "SEC_01_DEF",
+      "Bullet_ID": "B1",
+      "Med_Class_ID": "",
+      "Target_Variable": "Age_Child_4_12y",
+      "Statement_Text": "Bacterial infections make up about 25% of these cases, compared to just 10% to 15% otherwise.",
+      "Nuance_Transition": "",
+      "Route_Icon": "",
+      "Reference_Link": "Pellegrino et al., 2023"
+    },
+    {
+      "ICD10_ID": "J02.9",
+      "Section_ID": "SEC_01_DEF",
+      "Bullet_ID": "B2",
+      "Med_Class_ID": "",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "Common breathing viruses enter the throat lining, causing the release of warning signals that bring extra blood and redness to the area.",
+      "Nuance_Transition": "",
+      "Route_Icon": "",
+      "Reference_Link": "Petat et al., 2025"
+    },
+    {
+      "ICD10_ID": "J02.9",
+      "Section_ID": "SEC_01_DEF",
+      "Bullet_ID": "B3",
+      "Med_Class_ID": "",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "The illness is short and gets better without antibiotics in 50% to 80% of cases.",
+      "Nuance_Transition": "",
+      "Route_Icon": "",
+      "Reference_Link": "Bo et al., 2022"
+    },
+    {
+      "ICD10_ID": "J02.9",
+      "Section_ID": "SEC_01_DEF",
+      "Bullet_ID": "B3",
+      "Med_Class_ID": "",
+      "Target_Variable": "Age_Elderly_65_79y",
+      "Statement_Text": "A lasting cough remains at day 7 in up to 50% of cases, showing a longer impact on daily life.",
+      "Nuance_Transition": "",
+      "Route_Icon": "",
+      "Reference_Link": "Petat et al., 2025"
+    },
+    {
+      "ICD10_ID": "J02.9",
+      "Section_ID": "SEC_02_ETI",
+      "Bullet_ID": "B1",
+      "Med_Class_ID": "",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "The main causes are common viruses like rhinovirus, adenovirus, and coronaviruses.",
+      "Nuance_Transition": "",
+      "Route_Icon": "",
+      "Reference_Link": "Caldwell et al., 2024"
+    },
+    {
+      "ICD10_ID": "J02.9",
+      "Section_ID": "SEC_02_ETI",
+      "Bullet_ID": "B2",
+      "Med_Class_ID": "",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "Crowded living spaces increase the spread of these viruses.",
+      "Nuance_Transition": "",
+      "Route_Icon": "",
+      "Reference_Link": "Pellegrino et al., 2023"
+    },
+    {
+      "ICD10_ID": "J02.9",
+      "Section_ID": "SEC_02_ETI",
+      "Bullet_ID": "B3",
+      "Med_Class_ID": "",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "High local rates of rheumatic fever mean a closer medical watch is needed to catch bacterial cases.",
+      "Nuance_Transition": "",
+      "Route_Icon": "",
+      "Reference_Link": "Pellegrino et al., 2023"
+    },
+    {
+      "ICD10_ID": "J02.9",
+      "Section_ID": "SEC_03_IMP",
+      "Bullet_ID": "B1",
+      "Med_Class_ID": "",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "Signs include a sudden sore throat, pain when swallowing, a cough, a runny nose, and sometimes a rough voice.",
+      "Nuance_Transition": "",
+      "Route_Icon": "",
+      "Reference_Link": "Liang et al., 2025"
+    },
+    {
+      "ICD10_ID": "J02.9",
+      "Section_ID": "SEC_03_IMP",
+      "Bullet_ID": "B1",
+      "Med_Class_ID": "",
+      "Target_Variable": "Age_Child_4_12y",
+      "Statement_Text": "Stomach pain, nausea, and throwing up also happen in up to 30% of cases.",
+      "Nuance_Transition": "",
+      "Route_Icon": "",
+      "Reference_Link": "Caldwell et al., 2024"
+    },
+    {
+      "ICD10_ID": "J02.9",
+      "Section_ID": "SEC_03_IMP",
+      "Bullet_ID": "B2",
+      "Med_Class_ID": "",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "This illness causes missed school and an average of 6.5 days of lost work per episode.",
+      "Nuance_Transition": "",
+      "Route_Icon": "",
+      "Reference_Link": "Farghal et al., 2018"
+    },
+    {
+      "ICD10_ID": "J02.9",
+      "Section_ID": "SEC_03_IMP",
+      "Bullet_ID": "B3",
+      "Med_Class_ID": "",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "The high level of discomfort makes it hard to focus and rest well during the day.",
+      "Nuance_Transition": "",
+      "Route_Icon": "",
+      "Reference_Link": "Osiejewska et al., 2022"
+    },
+    {
+      "ICD10_ID": "J02.9",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B1",
+      "Med_Class_ID": "PARACETAMOL",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "This medicine blocks pain signals in the brain and spinal cord to lower pain and fever.",
+      "Nuance_Transition": "",
+      "Route_Icon": "icon_route_oral.png",
+      "Reference_Link": "Ayoub, 2021"
+    },
+    {
+      "ICD10_ID": "J02.9",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B2",
+      "Med_Class_ID": "PARACETAMOL",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "Used to handle fever and body aches while resting.",
+      "Nuance_Transition": "",
+      "Route_Icon": "icon_route_oral.png",
+      "Reference_Link": "Sutema et al., 2022"
+    },
+    {
+      "ICD10_ID": "J02.9",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B3",
+      "Med_Class_ID": "PARACETAMOL",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "Side effects are very rare, happening in less than 1% of cases when used correctly.",
+      "Nuance_Transition": "",
+      "Route_Icon": "",
+      "Reference_Link": "Chidiac et al., 2023"
+    },
+    {
+      "ICD10_ID": "J02.9",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B4",
+      "Med_Class_ID": "PARACETAMOL",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "The liver breaks down this medicine over a few hours. Taking too much can cause severe liver damage.",
+      "Nuance_Transition": "",
+      "Route_Icon": "",
+      "Reference_Link": "Mallet et al., 2023"
+    },
+    {
+      "ICD10_ID": "J02.9",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B4",
+      "Med_Class_ID": "PARACETAMOL",
+      "Target_Variable": "Hepatic_Impaired",
+      "Statement_Text": "The dose must be lowered to stop cell damage.",
+      "Nuance_Transition": "",
+      "Route_Icon": "icon_warning.png",
+      "Reference_Link": "Freo et al., 2021"
+    },
+    {
+      "ICD10_ID": "J02.9",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B4",
+      "Med_Class_ID": "PARACETAMOL",
+      "Target_Variable": "Renal_Impaired_Severe_ESRD",
+      "Statement_Text": "Doses must be matched exactly to the body to prevent toxin buildup.",
+      "Nuance_Transition": "",
+      "Route_Icon": "icon_warning.png",
+      "Reference_Link": "Alchin et al., 2022"
+    },
+    {
+      "ICD10_ID": "J02.9",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B4",
+      "Med_Class_ID": "PARACETAMOL",
+      "Target_Variable": "BMI_Morbidly_Obese_40_Plus",
+      "Statement_Text": "The medicine is cleared 1.6% faster per unit of body mass index, reaching up to 64% faster clearing overall.",
+      "Nuance_Transition": "",
+      "Route_Icon": "",
+      "Reference_Link": "Berton et al., 2022"
+    },
+    {
+      "ICD10_ID": "J02.9",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B1",
+      "Med_Class_ID": "IBUPROFEN",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "This medicine stops the body from making specific chemicals that cause swelling, fever, and pain in the throat.",
+      "Nuance_Transition": "",
+      "Route_Icon": "icon_route_oral.png",
+      "Reference_Link": "Azh et al., 2022"
+    },
+    {
+      "ICD10_ID": "J02.9",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B2",
+      "Med_Class_ID": "IBUPROFEN",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "Used to lower pain and swelling right away.",
+      "Nuance_Transition": "",
+      "Route_Icon": "icon_route_oral.png",
+      "Reference_Link": "Venekamp et al., 2020"
+    },
+    {
+      "ICD10_ID": "J02.9",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B3",
+      "Med_Class_ID": "IBUPROFEN",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "Stomach upset happens in 1% to 10% of cases.",
+      "Nuance_Transition": "",
+      "Route_Icon": "",
+      "Reference_Link": "Von Philipsborn et al., 2020"
+    },
+    {
+      "ICD10_ID": "J02.9",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B4",
+      "Med_Class_ID": "IBUPROFEN",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "The kidneys clear this medicine. It can raise the risk of stomach bleeding if used too long.",
+      "Nuance_Transition": "",
+      "Route_Icon": "",
+      "Reference_Link": "Ribeiro et al., 2022"
+    },
+    {
+      "ICD10_ID": "J02.9",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B4",
+      "Med_Class_ID": "IBUPROFEN",
+      "Target_Variable": "Age_Elderly_65_79y",
+      "Statement_Text": "The risk of stomach bleeding and kidney problems increases by up to 50%.",
+      "Nuance_Transition": "",
+      "Route_Icon": "icon_warning.png",
+      "Reference_Link": "Ribeiro et al., 2022"
+    },
+    {
+      "ICD10_ID": "J02.9",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B4",
+      "Med_Class_ID": "IBUPROFEN",
+      "Target_Variable": "Age_Child_4_12y",
+      "Statement_Text": "The dose must be carefully set by body weight, normally 5 to 10 milligrams per kilogram.",
+      "Nuance_Transition": "",
+      "Route_Icon": "",
+      "Reference_Link": "Zempsky et al., 2023"
+    },
+    {
+      "ICD10_ID": "J02.9",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B1",
+      "Med_Class_ID": "FLURBIPROFEN",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "This medicine works directly in the throat to stop chemicals that make it red and sore.",
+      "Nuance_Transition": "",
+      "Route_Icon": "icon_route_oral.png",
+      "Reference_Link": "Perlik et al., 2023"
+    },
+    {
+      "ICD10_ID": "J02.9",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B2",
+      "Med_Class_ID": "FLURBIPROFEN",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "Sucked slowly as a lozenge to coat the throat and bring fast relief.",
+      "Nuance_Transition": "",
+      "Route_Icon": "icon_route_oral.png",
+      "Reference_Link": "Schachtel et al., 2021"
+    },
+    {
+      "ICD10_ID": "J02.9",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B3",
+      "Med_Class_ID": "FLURBIPROFEN",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "About 14% of people might notice a strange taste in the mouth, while 1% to 10% might feel numbness.",
+      "Nuance_Transition": "",
+      "Route_Icon": "",
+      "Reference_Link": "Evans et al., 2024"
+    },
+    {
+      "ICD10_ID": "J02.9",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B4",
+      "Med_Class_ID": "FLURBIPROFEN",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "The medicine reaches its peak level in the blood in about 0.83 hours.",
+      "Nuance_Transition": "",
+      "Route_Icon": "",
+      "Reference_Link": "Perlik et al., 2023"
+    },
+    {
+      "ICD10_ID": "J02.9",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B1",
+      "Med_Class_ID": "BENZYDAMINE",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "This medicine acts as a local numbing agent to reduce pain at the site of the sore throat.",
+      "Nuance_Transition": "",
+      "Route_Icon": "icon_route_oral.png",
+      "Reference_Link": "Dao et al., 2019"
+    },
+    {
+      "ICD10_ID": "J02.9",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B2",
+      "Med_Class_ID": "BENZYDAMINE",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "Used directly in the mouth to help with swallowing pain.",
+      "Nuance_Transition": "",
+      "Route_Icon": "icon_route_oral.png",
+      "Reference_Link": "Marushko et al., 2024"
+    },
+    {
+      "ICD10_ID": "J02.9",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B3",
+      "Med_Class_ID": "BENZYDAMINE",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "More than 10% of cases report a temporary numbness in the mouth.",
+      "Nuance_Transition": "",
+      "Route_Icon": "",
+      "Reference_Link": "Clinical Consensus"
+    },
+    {
+      "ICD10_ID": "J02.9",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B4",
+      "Med_Class_ID": "BENZYDAMINE",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "It is processed mostly in the mouth and throat area, providing local relief.",
+      "Nuance_Transition": "",
+      "Route_Icon": "",
+      "Reference_Link": "Clinical Consensus"
+    },
+    {
+      "ICD10_ID": "J02.9",
+      "Section_ID": "SEC_05_MNG",
+      "Bullet_ID": "B1",
+      "Med_Class_ID": "",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "Drinking enough water is a core step for recovery.",
+      "Nuance_Transition": "",
+      "Route_Icon": "",
+      "Reference_Link": "Sutema et al., 2022"
+    },
+    {
+      "ICD10_ID": "J02.9",
+      "Section_ID": "SEC_05_MNG",
+      "Bullet_ID": "B2",
+      "Med_Class_ID": "",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "Resting is one of the most important things to help the body heal faster.",
+      "Nuance_Transition": "",
+      "Route_Icon": "",
+      "Reference_Link": "Sutema et al., 2022"
+    },
+    {
+      "ICD10_ID": "J02.9",
+      "Section_ID": "SEC_05_MNG",
+      "Bullet_ID": "B3",
+      "Med_Class_ID": "",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "Using throat sprays or lozenges can help reduce pain and redness faster than salt water alone.",
+      "Nuance_Transition": "",
+      "Route_Icon": "",
+      "Reference_Link": "Marushko et al., 2024"
+    },
+    {
+      "ICD10_ID": "J02.9",
+      "Section_ID": "SEC_06_FLG",
+      "Bullet_ID": "B1",
+      "Med_Class_ID": "",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "Hard time breathing, not being able to swallow spit, or a muffled voice means medical help is needed right away.",
+      "Nuance_Transition": "",
+      "Route_Icon": "icon_warning.png",
+      "Reference_Link": "Pellegrino et al., 2023"
+    },
+    {
+      "ICD10_ID": "J02.9",
+      "Section_ID": "SEC_06_FLG",
+      "Bullet_ID": "B2",
+      "Med_Class_ID": "PARACETAMOL",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "Taking more than the advised dose can lead to sudden liver failure.",
+      "Nuance_Transition": "",
+      "Route_Icon": "icon_warning.png",
+      "Reference_Link": "Mallet et al., 2023"
+    },
+    {
+      "ICD10_ID": "J02.9",
+      "Section_ID": "SEC_06_FLG",
+      "Bullet_ID": "B2",
+      "Med_Class_ID": "IBUPROFEN",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "Watch out for stomach pain or dark stools, which could mean bleeding inside.",
+      "Nuance_Transition": "",
+      "Route_Icon": "icon_warning.png",
+      "Reference_Link": "Ribeiro et al., 2022"
+    },
+    {
+      "ICD10_ID": "J02.9",
+      "Section_ID": "SEC_06_FLG",
+      "Bullet_ID": "B2",
+      "Med_Class_ID": "FLURBIPROFEN",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "Stop using if the throat feels too tingly or completely numb for a long time.",
+      "Nuance_Transition": "",
+      "Route_Icon": "icon_warning.png",
+      "Reference_Link": "Evans et al., 2024"
+    },
+    {
+      "ICD10_ID": "J02.9",
+      "Section_ID": "SEC_06_FLG",
+      "Bullet_ID": "B2",
+      "Med_Class_ID": "BENZYDAMINE",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "Stop using if a rash or swelling happens inside the mouth.",
+      "Nuance_Transition": "",
+      "Route_Icon": "icon_warning.png",
+      "Reference_Link": "Clinical Consensus"
+    },
+    {
+      "ICD10_ID": "J02.9",
+      "Section_ID": "SEC_06_FLG",
+      "Bullet_ID": "B3",
+      "Med_Class_ID": "",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "A persistent high fever means a medical check is needed to rule out a bacterial infection.",
+      "Nuance_Transition": "",
+      "Route_Icon": "icon_warning.png",
+      "Reference_Link": "Pellegrino et al., 2023"
+    },
+    {
+      "ICD10_ID": "J02.9",
+      "Section_ID": "SEC_07_SUC",
+      "Bullet_ID": "B1",
+      "Med_Class_ID": "",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "The main goal is to lower pain and swelling within 2 hours of taking action.",
+      "Nuance_Transition": "",
+      "Route_Icon": "",
+      "Reference_Link": "Schachtel et al., 2021"
+    },
+    {
+      "ICD10_ID": "J02.9",
+      "Section_ID": "SEC_07_SUC",
+      "Bullet_ID": "B2",
+      "Med_Class_ID": "",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "Success looks like reaching at least moderate relief on a pain scale and being able to swallow easier.",
+      "Nuance_Transition": "",
+      "Route_Icon": "",
+      "Reference_Link": "Schachtel & Shephard, 2025"
+    },
+    {
+      "ICD10_ID": "J02.9",
+      "Section_ID": "SEC_07_SUC",
+      "Bullet_ID": "B3",
+      "Med_Class_ID": "",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "Using the right symptom care helps stop the unneeded use of antibiotics.",
+      "Nuance_Transition": "",
+      "Route_Icon": "",
+      "Reference_Link": "Dayhes et al., 2025"
+    }
+  ]
+}

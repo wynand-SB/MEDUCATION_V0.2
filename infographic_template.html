@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        /* Forces background colors to render in headless printing */
+        * { -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; }
+
+        body { font-family: {{ global_style.font_family }}; background-color: {{ global_style.document_bg_color }}; color: #1A1A1A; width: {{ global_style.canvas_width }}; margin: 0; padding: 0; box-sizing: border-box; }
+        .content-area { padding: {{ global_style.content_padding }}; }
+
+        .primary-text { font-size: {{ global_style.primary_text_size }}; font-weight: 700; margin-bottom: 12px; line-height: {{ global_style.line_height }}; }
+        .secondary-text { font-size: {{ global_style.secondary_text_size }}; font-weight: 500; margin-bottom: 8px; line-height: {{ global_style.line_height }}; }
+        
+        /* THE FIX: Standard Lists Hanging Indent applied globally */
+        ul, ol { list-style-position: outside; margin: 0; padding-left: 24px; }
+        li::marker { font-size: 1.2em; }
+
+        .header-container { position: relative; background-color: {{ header_style.fallback_bg_color }}; {% if assets.header_bg %} background-image: url('{{ assets.header_bg }}'); {% endif %} background-size: cover; background-position: center; padding: {{ header_style.padding }}; margin-bottom: 40px; min-height: 160px; }
+        .header-scrim { position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: {{ header_style.scrim_overlay }}; }
+        .header-content { position: relative; z-index: 1; display: flex; align-items: center; justify-content: space-between; }
+        .header-titles { max-width: 65%; }
+        .title { font-size: {{ header_style.title_size }}; font-weight: 800; color: {{ header_style.title_color }}; margin-bottom: 10px; line-height: 1.1; }
+        .aka { font-size: {{ header_style.aka_size }}; color: {{ header_style.aka_color }}; font-style: italic; font-weight: 500; }
+        
+        .logo-img { 
+            position: absolute; 
+            max-height: {{ header_style.practice_logo_max_height }}; 
+            top: {{ header_style.practice_logo_top }}; 
+            right: {{ header_style.practice_logo_right }}; 
+            z-index: 2; 
+            object-fit: contain; 
+        }
+        
+        .doc-img { 
+            position: absolute; 
+            height: {{ header_style.doctor_img_size }}; 
+            bottom: {{ header_style.doctor_bottom }}; 
+            right: {{ header_style.doctor_right }}; 
+            z-index: 2; 
+            object-fit: contain; 
+        }
+
+        .dynamic-icon { display: inline-block; -webkit-mask-size: contain; -webkit-mask-repeat: no-repeat; -webkit-mask-position: center; mask-size: contain; mask-repeat: no-repeat; mask-position: center; }
+        .section-header { display: flex; align-items: center; gap: 15px; font-size: {{ global_style.card_header_size }}; font-weight: 800; text-transform: uppercase; margin-top: 40px; margin-bottom: 20px; }
+        .base-card { border-radius: {{ global_style.card_radius }}; padding: 25px; margin-bottom: {{ global_style.section_margin_bottom }}; box-shadow: {{ global_style.card_shadow }}; }
+        .top-section-card { border: 1px solid #E2E8F0; }
+        .card-row { display: flex; flex-wrap: wrap; gap: 20px; margin-bottom: {{ global_style.section_margin_bottom }}; align-items: stretch; }
+        .flex-card-half { flex: 1 1 calc(50% - 10px); min-width: calc(50% - 10px); box-sizing: border-box; }
+        .flex-card-third { flex: 1 1 calc(33.333% - 14px); min-width: calc(33.333% - 14px); box-sizing: border-box; }
+
+        .footer { background-color: {{ footer_style.bg_color }} !important; -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; padding: {{ footer_style.padding }}; margin-top: {{ footer_style.margin_top }}; display: flex; justify-content: space-between; align-items: flex-end; width: 100%; box-sizing: border-box; }
+        .footer-content { flex: 1; padding-right: 20px; }
+        .footer-title { color: {{ footer_style.title_color }}; font-size: {{ footer_style.title_size }}; font-weight: bold; margin-bottom: 10px; text-transform: uppercase; }
+        .footer-text { color: {{ footer_style.text_color }}; font-size: {{ footer_style.text_size }}; line-height: 1.5; text-align: justify; }
+        .footer-logo { max-height: {{ footer_style.meducation_logo_max_height }}; object-fit: contain; } 
+    </style>
+</head>
+<body>
+
+    <div class="header-container">
+        <div class="header-scrim"></div>
+        <div class="header-content">
+            <div class="header-titles">
+                <div class="title">{{ content.indication_name | upper }}</div>
+                {% if content.indication_aka %}<div class="aka">{{ content.indication_aka }}</div>{% endif %}
+            </div>
+        </div>
+        {% if assets.logo %}<img src="{{ assets.logo }}" class="logo-img">{% endif %}
+        {% if assets.doctor %}<img src="{{ assets.doctor }}" class="doc-img">{% endif %}
+    </div>
+
+    <div class="content-area">
+        {% for block in content.blocks %}
+            
+            {% if block.section_id in ['SEC_01_DEF', 'SEC_02_ETI', 'SEC_03_IMP'] %}
+            <div class="base-card top-section-card" style="background-color: {{ config.get(block.section_id, {}).get('card_bg_color', '#FFFFFF') }}; border-left: 6px solid {{ config.get(block.section_id, {}).get('border_color', '#E2E8F0') }};">
+                <div class="section-header" style="color: {{ config.get(block.section_id, {}).get('label_color', '#000000') }}; margin-top: 0;">
+                    {% if config.get(block.section_id, {}).get('icon_file') and all_icons.get(config[block.section_id]['icon_file']) %}
+                    <div class="dynamic-icon" style="width: 40px; height: 40px; background-color: {{ config.get(block.section_id, {}).get('label_color', '#000') }}; -webkit-mask-image: url('{{ all_icons[config[block.section_id]['icon_file']] }}');"></div>
+                    {% endif %}
+                    {{ config.get(block.section_id, {}).get('label_text', '') }}
+                </div>
+                
+                <ul style="margin: 0; padding-left: 24px;">
+                    {% for bullet in block.bullets %}
+                        <li class="primary-text" style="color: {{ config.get(block.section_id, {}).get('p_bullet_color', '#1A1A1A') }}; font-weight: 500;">
+                            {{ bullet.primary_text | safe }}
+                            {% if bullet.sub_bullets %}
+                            <ul style="list-style-type: '- '; padding-left: 24px; margin-top: 8px;">
+                                {% for sub in bullet.sub_bullets %}
+                                <li class="secondary-text" style="color: {{ config.get(block.section_id, {}).get('s_bullet_color', '#475569') }}; font-weight: 400;">
+                                    {{ sub | safe }}
+                                </li>
+                                {% endfor %}
+                            </ul>
+                            {% endif %}
+                        </li>
+                    {% endfor %}
+                </ul>
+
+            </div>
+            {% endif %}
+
+            {% if block.section_id == 'SEC_04_TX' %}
+            <div class="section-header" style="color: {{ config.get(block.section_id, {}).get('label_color', '#000000') }};">
+                {% if all_icons.get('icon_tx.png') %}<div class="dynamic-icon" style="width: 40px; height: 40px; background-color: {{ config.get(block.section_id, {}).get('label_color', '#000') }}; -webkit-mask-image: url('{{ all_icons['icon_tx.png'] }}');"></div>{% endif %}
+                {{ config.get(block.section_id, {}).get('label_text', '') }}
+            </div>
+            <div class="card-row">
+                {% for bullet in block.bullets %}
+                <div class="base-card flex-card-half" style="background-color: {{ config.get(block.section_id, {}).get('card_bg_color', '#F8F9FA') }}; border-left: 6px solid {{ config.get(block.section_id, {}).get('border_color', '#E2E8F0') }}; margin-bottom: 0;">
+                    
+                    <div style="display: flex; align-items: center; justify-content: center; margin-bottom: 15px;">
+                        {% if bullet.icon_name and all_icons.get(bullet.icon_name) %}
+                        <div class="dynamic-icon" style="width: 35px; height: 35px; margin-right: 15px; background-color: {{ config.get(block.section_id, {}).get('label_color', '#000') }}; -webkit-mask-image: url('{{ all_icons[bullet.icon_name] }}');"></div>
+                        {% endif %}
+                        <div class="primary-text" style="color: {{ config.get(block.section_id, {}).get('label_color', '#000') }}; margin-bottom: 0; font-size: 22px;">{{ bullet.primary_text }}</div>
+                    </div>
+                    
+                    {% if bullet.sub_bullets %}
+                        {% if bullet.sub_bullets[0] %}
+                        <div style="text-align: center; color: {{ config.get(block.section_id, {}).get('s_bullet_color', '#333') }}; font-size: 16px; margin-bottom: 20px; font-style: italic;">
+                            {{ bullet.sub_bullets[0] | safe }}
+                        </div>
+                        {% endif %}
+                        <ul>
+                            {% for sub in bullet.sub_bullets[1:] %}
+                            {% if sub %}
+                            <li class="secondary-text" style="color: {{ config.get(block.section_id, {}).get('s_bullet_color', '#333') }}; font-weight: normal;">{{ sub | safe }}</li>
+                            {% endif %}
+                            {% endfor %}
+                        </ul>
+                    {% endif %}
+                </div>
+                {% endfor %}
+            </div>
+            {% endif %}
+
+            {% if block.section_id == 'SEC_05_MNG' %}
+            <div class="section-header" style="color: {{ config.get(block.section_id, {}).get('label_color', '#000000') }};">
+                {% if all_icons.get('icon_mng.png') %}<div class="dynamic-icon" style="width: 40px; height: 40px; background-color: {{ config.get(block.section_id, {}).get('label_color', '#000') }}; -webkit-mask-image: url('{{ all_icons['icon_mng.png'] }}');"></div>{% endif %}
+                {{ config.get(block.section_id, {}).get('label_text', '') }}
+            </div>
+            <div class="card-row">
+                {% set mng_titles = ["FOOD & DRINK", "REST & ACTIVITY", "HOME CARE"] %}
+                {% set mng_icons = ["icon_diet.png", "icon_active.png", "icon_env.png"] %}
+                
+                {% for bullet in block.bullets %}
+                <div class="base-card flex-card-third" style="background-color: {{ config.get(block.section_id, {}).get('card_bg_color', '#F8F9FA') }}; border-left: 6px solid {{ config.get(block.section_id, {}).get('border_color', '#E2E8F0') }}; margin-bottom: 0;">
+                    <div style="display: flex; align-items: center; margin-bottom: 12px;">
+                        {% set c_icon = mng_icons[loop.index0] if loop.index0 < 3 else "" %}
+                        {% if c_icon and all_icons.get(c_icon) %}
+                        <div class="dynamic-icon" style="width: 35px; height: 35px; margin-right: 12px; background-color: {{ config.get(block.section_id, {}).get('label_color', '#000') }}; -webkit-mask-image: url('{{ all_icons[c_icon] }}');"></div>
+                        {% endif %}
+                        <div style="font-size: {{ global_style.primary_text_size }}; font-weight: 800; color: {{ config.get(block.section_id, {}).get('label_color', '#000') }};">
+                            {{ mng_titles[loop.index0] if loop.index0 < 3 else "OTHER" }}
+                        </div>
+                    </div>
+                    <div style="border-bottom: 2px solid #EAEAEA; margin-bottom: 15px;"></div>
+                    <div class="primary-text" style="color: {{ config.get(block.section_id, {}).get('p_bullet_color', '#000') }}; font-weight: normal;">{{ bullet.primary_text | safe }}</div>
+                    <ul>
+                        {% for sub in bullet.sub_bullets %}
+                        <li class="secondary-text" style="color: {{ config.get(block.section_id, {}).get('s_bullet_color', '#333') }}; font-weight: normal;">{{ sub | safe }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                {% endfor %}
+            </div>
+            {% endif %}
+
+            {% if block.section_id == 'SEC_06_FLG' %}
+            <div class="section-header" style="color: {{ config.get(block.section_id, {}).get('label_color', '#000000') }};">
+                {% if all_icons.get('icon_flg.png') %}<div class="dynamic-icon" style="width: 40px; height: 40px; background-color: {{ config.get(block.section_id, {}).get('label_color', '#000') }}; -webkit-mask-image: url('{{ all_icons['icon_flg.png'] }}');"></div>{% endif %}
+                {{ config.get(block.section_id, {}).get('label_text', '') }}
+            </div>
+            <div class="base-card" style="background-color: {{ config.get(block.section_id, {}).get('card_bg_color', '#FFF3F3') }}; border-left: 6px solid {{ config.get(block.section_id, {}).get('border_color', '#E2E8F0') }}; margin-bottom: 0;">
+                
+                {% for bullet in block.bullets %}
+                    {% if bullet.primary_text == 'DISEASE' %}
+                    <div style="text-align: center; margin-bottom: 25px; color: {{ config.get(block.section_id, {}).get('p_bullet_color', '#DC3545') }}; font-size: 18px;">
+                        <ol style="list-style-position: outside; padding-left: 24px; margin: 0; display: inline-block; text-align: left;">
+                            {% for sub in bullet.sub_bullets %}
+                            <li style="margin-bottom: 12px; font-weight: bold;">{{ sub | safe }}</li>
+                            {% endfor %}
+                        </ol>
+                    </div>
+                    {% endif %}
+                {% endfor %}
+
+                {% for bullet in block.bullets %}
+                    {% if bullet.primary_text == 'MEDICATION' %}
+                    <div style="column-count: 2; column-gap: 40px; border-top: 2px dashed #F5C2C7; padding-top: 20px;">
+                        <ul style="margin: 0; padding-left: 24px; color: {{ config.get(block.section_id, {}).get('s_bullet_color', '#B02A37') }}; font-size: 16px;">
+                            {% for sub in bullet.sub_bullets %}
+                            <li style="margin-bottom: 12px;">{{ sub | safe }}</li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                    {% endif %}
+                {% endfor %}
+                
+            </div>
+            {% endif %}
+
+            {% if block.section_id == 'SEC_07_SUC' %}
+            <div class="section-header" style="color: {{ config.get(block.section_id, {}).get('label_color', '#000000') }};">
+                {% if all_icons.get('icon_suc.png') %}<div class="dynamic-icon" style="width: 40px; height: 40px; background-color: {{ config.get(block.section_id, {}).get('label_color', '#000') }}; -webkit-mask-image: url('{{ all_icons['icon_suc.png'] }}');"></div>{% endif %}
+                {{ config.get(block.section_id, {}).get('label_text', '') }}
+            </div>
+            <div class="base-card" style="background-color: {{ config.get(block.section_id, {}).get('card_bg_color', '#F8F9FA') }}; border-left: 6px solid {{ config.get(block.section_id, {}).get('border_color', '#E2E8F0') }};">
+                <ul style="padding-left: 24px;">
+                    {% for bullet in block.bullets %}
+                    <li class="primary-text" style="color: {{ config.get(block.section_id, {}).get('p_bullet_color', '#1A1A1A') }}; margin-bottom: 10px; font-weight: normal;">
+                        {{ bullet.primary_text | safe }}
+                        {% if bullet.sub_bullets %}
+                        <ul style="margin-top: 5px; padding-left: 24px;">
+                            {% for sub in bullet.sub_bullets %}
+                            <li class="secondary-text" style="color: {{ config.get(block.section_id, {}).get('s_bullet_color', '#333333') }}; font-weight: normal;">{{ sub | safe }}</li>
+                            {% endfor %}
+                        </ul>
+                        {% endif %}
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+            {% endif %}
+
+        {% endfor %}
+    </div>
+
+    <div class="footer">
+        <div class="footer-content">
+            <div class="footer-title">CLINICAL REFERENCES & SCIENTIFIC SOURCES</div>
+            <div class="footer-text">
+                {% for ref in content.references %}{{ ref }}{% if not loop.last %}; {% endif %}{% endfor %}
+            </div>
+        </div>
+        {% if assets.meducation_logo %}
+        <img src="{{ assets.meducation_logo }}" class="footer-logo" alt="Meducation">
+        {% else %}
+        <div style="color: #ffcccc; font-size: 10px; font-weight: bold;">[Meducation Logo File Not Found]</div>
+        {% endif %}
+    </div>
+</body>
+</html>

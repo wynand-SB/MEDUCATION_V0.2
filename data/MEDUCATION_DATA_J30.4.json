@@ -1,0 +1,480 @@
+{
+  "ExtractionChecklist": {
+    "renal_risks_found": [
+      "End-stage renal disease decreases oral clearance of Fexofenadine by 63%"
+    ],
+    "hepatic_risks_found": [
+      "None"
+    ],
+    "cardiovascular_risks_found": [
+      "None"
+    ],
+    "social_and_race_risks_found": [
+      "Black and Hispanic patients experience significantly lower access to allergen immunotherapy (RR 0.40 and 0.80)"
+    ]
+  },
+  "Data": [
+    {
+      "ICD10_ID": "J30.4",
+      "Section_ID": "SEC_01_DEF",
+      "Bullet_ID": "B1",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "This is a long-term swelling of the inner nose caused by an immune reaction to breathed-in particles.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Husna et al., 2022",
+      "Med_Class_ID": "",
+      "Route_Icon": ""
+    },
+    {
+      "ICD10_ID": "J30.4",
+      "Section_ID": "SEC_01_DEF",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "Breathed-in particles break through the compromised lining of the nose, causing the body to release histamine and other chemicals that swell the tissues.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Wang et al., 2023",
+      "Med_Class_ID": "",
+      "Route_Icon": ""
+    },
+    {
+      "ICD10_ID": "J30.4",
+      "Section_ID": "SEC_01_DEF",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "This is a persistent condition that continues to cause daily physical blocks and discomfort if the body is not protected from the air particles.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Husna et al., 2022",
+      "Med_Class_ID": "",
+      "Route_Icon": ""
+    },
+    {
+      "ICD10_ID": "J30.4",
+      "Section_ID": "SEC_02_ETI",
+      "Bullet_ID": "B1",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "The main causes are pollens, dust mites, molds, and animal dander.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Liva et al., 2021",
+      "Med_Class_ID": "",
+      "Route_Icon": ""
+    },
+    {
+      "ICD10_ID": "J30.4",
+      "Section_ID": "SEC_02_ETI",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "Environmental surroundings and outside air quality are major factors causing the condition to happen more often globally.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Singh et al., 2025",
+      "Med_Class_ID": "",
+      "Route_Icon": ""
+    },
+    {
+      "ICD10_ID": "J30.4",
+      "Section_ID": "SEC_02_ETI",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "Passing down traits through families sets the base risk, while body weight does not change the risk at all.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Yeo et al., 2024",
+      "Med_Class_ID": "",
+      "Route_Icon": ""
+    },
+    {
+      "ICD10_ID": "J30.4",
+      "Section_ID": "SEC_02_ETI",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Sex_Male",
+      "Statement_Text": "There is a unique biological link between higher levels of the thyroid hormone T4 and the presence of these allergies, pointing to deep hormone-immune connections.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Lokaj-Berisha & Lumezi, 2025",
+      "Med_Class_ID": "",
+      "Route_Icon": ""
+    },
+    {
+      "ICD10_ID": "J30.4",
+      "Section_ID": "SEC_03_IMP",
+      "Bullet_ID": "B1",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "The body reacts with sudden sneezing fits, itchy nose, a severe runny nose, and heavy blocking of the airways.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Tidke et al., 2024",
+      "Med_Class_ID": "",
+      "Route_Icon": ""
+    },
+    {
+      "ICD10_ID": "J30.4",
+      "Section_ID": "SEC_03_IMP",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "It often links to breathing issues like asthma and sleep problems, making it hard to get through daily tasks and work.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Ellis et al., 2024",
+      "Med_Class_ID": "",
+      "Route_Icon": ""
+    },
+    {
+      "ICD10_ID": "J30.4",
+      "Section_ID": "SEC_03_IMP",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "The constant physical symptoms lower overall enjoyment and deeply affect the quality of daily life.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Zhang et al., 2022",
+      "Med_Class_ID": "",
+      "Route_Icon": ""
+    },
+    {
+      "ICD10_ID": "J30.4",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B1",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "This medicine blocks the chemical histamine to stop the allergic reaction right away.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Bernstein et al., 2024",
+      "Med_Class_ID": "ORAL ANTIHISTAMINES",
+      "Route_Icon": "icon_route_oral.png"
+    },
+    {
+      "ICD10_ID": "J30.4",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "It is used as a standard pill to calm down sneezing, itching, and a runny nose.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Meltzer et al., 2021",
+      "Med_Class_ID": "ORAL ANTIHISTAMINES",
+      "Route_Icon": "icon_route_oral.png"
+    },
+    {
+      "ICD10_ID": "J30.4",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "It can cause severe sleepiness, especially with certain specific versions of the pill.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Kong et al., 2024",
+      "Med_Class_ID": "ORAL ANTIHISTAMINES",
+      "Route_Icon": "icon_warning.png"
+    },
+    {
+      "ICD10_ID": "J30.4",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B4",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "The body normally processes this medicine safely through the liver and kidneys over the course of the day.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Batool et al., 2024",
+      "Med_Class_ID": "ORAL ANTIHISTAMINES",
+      "Route_Icon": "icon_route_oral.png"
+    },
+    {
+      "ICD10_ID": "J30.4",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B4",
+      "Target_Variable": "Renal_Impaired_Severe_ESRD",
+      "Statement_Text": "There is a massive 63% drop in how fast the body can clear this medicine out when the kidneys are severely failing.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Martins et al., 2024",
+      "Med_Class_ID": "ORAL ANTIHISTAMINES",
+      "Route_Icon": "icon_warning.png"
+    },
+    {
+      "ICD10_ID": "J30.4",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B1",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "This medicine works broadly across the nose lining to bring down swelling and stop the immune cells from releasing reaction chemicals.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Dhanush et al., 2021",
+      "Med_Class_ID": "INTRANASAL CORTICOSTEROIDS",
+      "Route_Icon": "icon_route_other.png"
+    },
+    {
+      "ICD10_ID": "J30.4",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "It is sprayed directly into the nose daily for long-term control of severe blocking and swelling.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Klimek et al., 2024",
+      "Med_Class_ID": "INTRANASAL CORTICOSTEROIDS",
+      "Route_Icon": "icon_route_other.png"
+    },
+    {
+      "ICD10_ID": "J30.4",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "Nosebleeds happen in 5% to 8% of cases, along with minor local pain inside the nose.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Tiwaskar et al., 2023",
+      "Med_Class_ID": "INTRANASAL CORTICOSTEROIDS",
+      "Route_Icon": "icon_warning.png"
+    },
+    {
+      "ICD10_ID": "J30.4",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B4",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "Very little of the medicine enters the main blood supply, keeping side effects completely contained inside the nose.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Klimek et al., 2024",
+      "Med_Class_ID": "INTRANASAL CORTICOSTEROIDS",
+      "Route_Icon": "icon_route_other.png"
+    },
+    {
+      "ICD10_ID": "J30.4",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B1",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "This spray quickly blocks the allergic reaction directly in the nose while also calming down the cells that release chemicals.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Dhanush et al., 2021",
+      "Med_Class_ID": "INTRANASAL ANTIHISTAMINES",
+      "Route_Icon": "icon_route_other.png"
+    },
+    {
+      "ICD10_ID": "J30.4",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "It is used for quick relief of local nose symptoms, often combined with other sprays for maximum effect.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Dhanush et al., 2021",
+      "Med_Class_ID": "INTRANASAL ANTIHISTAMINES",
+      "Route_Icon": "icon_route_other.png"
+    },
+    {
+      "ICD10_ID": "J30.4",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "A bad or bitter taste in the mouth happens about 13% of the time after using it.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Sinha et al., 2023",
+      "Med_Class_ID": "INTRANASAL ANTIHISTAMINES",
+      "Route_Icon": "icon_warning.png"
+    },
+    {
+      "ICD10_ID": "J30.4",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B4",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "The body handles it extremely well because it works straight on the nose tissues without traveling far.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Dhanush et al., 2021",
+      "Med_Class_ID": "INTRANASAL ANTIHISTAMINES",
+      "Route_Icon": "icon_route_other.png"
+    },
+    {
+      "ICD10_ID": "J30.4",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B1",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "This medicine blocks specific swelling chemicals to clear up the airways.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Sinha et al., 2023",
+      "Med_Class_ID": "LEUKOTRIENE ANTAGONISTS",
+      "Route_Icon": "icon_route_oral.png"
+    },
+    {
+      "ICD10_ID": "J30.4",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "It is added on when the patient has asthma symptoms along with a blocked nose.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Sinha et al., 2023",
+      "Med_Class_ID": "LEUKOTRIENE ANTAGONISTS",
+      "Route_Icon": "icon_route_oral.png"
+    },
+    {
+      "ICD10_ID": "J30.4",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "Watch out for mood changes or seeing things that are not there, though these are not very common.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Kong et al., 2024",
+      "Med_Class_ID": "LEUKOTRIENE ANTAGONISTS",
+      "Route_Icon": "icon_warning.png"
+    },
+    {
+      "ICD10_ID": "J30.4",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B4",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "The body handles this daily pill well alongside other standard allergy medicines.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Sinha et al., 2023",
+      "Med_Class_ID": "LEUKOTRIENE ANTAGONISTS",
+      "Route_Icon": "icon_route_oral.png"
+    },
+    {
+      "ICD10_ID": "J30.4",
+      "Section_ID": "SEC_05_MNG",
+      "Bullet_ID": "B1",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "Avoiding certain fruit juices is required when taking specific allergy pills because it lowers the amount of medicine the body can absorb by 30%.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Martins et al., 2024",
+      "Med_Class_ID": "",
+      "Route_Icon": ""
+    },
+    {
+      "ICD10_ID": "J30.4",
+      "Section_ID": "SEC_05_MNG",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "Getting enough sleep is a main focus since the blocked nose causes major rest problems at night.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Ellis et al., 2024",
+      "Med_Class_ID": "",
+      "Route_Icon": ""
+    },
+    {
+      "ICD10_ID": "J30.4",
+      "Section_ID": "SEC_05_MNG",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "Staying entirely away from the specific pollens, dust, or animals that start the reaction is the main step to feeling better.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Tidke et al., 2024",
+      "Med_Class_ID": "",
+      "Route_Icon": ""
+    },
+    {
+      "ICD10_ID": "J30.4",
+      "Section_ID": "SEC_06_FLG",
+      "Bullet_ID": "B1",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "Stopping breathing during sleep, or a sudden loss of smell or taste, means the condition is getting dangerously worse.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Rollema et al., 2022",
+      "Med_Class_ID": "",
+      "Route_Icon": "icon_warning.png"
+    },
+    {
+      "ICD10_ID": "J30.4",
+      "Section_ID": "SEC_06_FLG",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "Severe sudden sleepiness or aggressive mood changes must be reported to a doctor right away.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Kong et al., 2024",
+      "Med_Class_ID": "ORAL ANTIHISTAMINES",
+      "Route_Icon": "icon_warning.png"
+    },
+    {
+      "ICD10_ID": "J30.4",
+      "Section_ID": "SEC_06_FLG",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "Constant bad nosebleeds or deep pain inside the nose could mean a hole is forming in the tissue.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Rollema et al., 2022",
+      "Med_Class_ID": "INTRANASAL CORTICOSTEROIDS",
+      "Route_Icon": "icon_warning.png"
+    },
+    {
+      "ICD10_ID": "J30.4",
+      "Section_ID": "SEC_06_FLG",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "Severe bitter taste leading to a lack of eating or drinking requires an immediate medical review.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Sinha et al., 2023",
+      "Med_Class_ID": "INTRANASAL ANTIHISTAMINES",
+      "Route_Icon": "icon_warning.png"
+    },
+    {
+      "ICD10_ID": "J30.4",
+      "Section_ID": "SEC_06_FLG",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "Any signs of mental health changes, anger, or seeing things that are not there must be flagged to a doctor.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Kong et al., 2024",
+      "Med_Class_ID": "LEUKOTRIENE ANTAGONISTS",
+      "Route_Icon": "icon_warning.png"
+    },
+    {
+      "ICD10_ID": "J30.4",
+      "Section_ID": "SEC_06_FLG",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "Scoring higher than 5 out of 10 on a pain and symptom scale means the current treatment is not working and needs a fast upgrade.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Mahboub et al., 2022",
+      "Med_Class_ID": "",
+      "Route_Icon": ""
+    },
+    {
+      "ICD10_ID": "J30.4",
+      "Section_ID": "SEC_07_SUC",
+      "Bullet_ID": "B1",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "The medical target is to keep daily symptom scores below 5 out of 10.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Mahboub et al., 2022",
+      "Med_Class_ID": "",
+      "Route_Icon": ""
+    },
+    {
+      "ICD10_ID": "J30.4",
+      "Section_ID": "SEC_07_SUC",
+      "Bullet_ID": "B1",
+      "Target_Variable": "Logistical_High_Travel_Distance",
+      "Statement_Text": "There are proven severe structural blocks causing relative access rates for advanced allergy shots to drop steeply to 0.40 and 0.80.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Modi et al., 2023",
+      "Med_Class_ID": "",
+      "Route_Icon": "icon_warning.png"
+    },
+    {
+      "ICD10_ID": "J30.4",
+      "Section_ID": "SEC_07_SUC",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "Success means far fewer sneezing fits, much less fluid from the nose, and completely clear breathing.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Bousquet et al., 2025",
+      "Med_Class_ID": "",
+      "Route_Icon": ""
+    },
+    {
+      "ICD10_ID": "J30.4",
+      "Section_ID": "SEC_07_SUC",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "Long-term protection gives a measurable boost to sleep quality and makes daily life completely normal again.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Bousquet et al., 2025",
+      "Med_Class_ID": "",
+      "Route_Icon": ""
+    },
+    {
+      "ICD10_ID": "J30.4",
+      "Section_ID": "SEC_07_SUC",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Age_Child_4_12y",
+      "Statement_Text": "There is a massive 83.3% success rate in completely fixing the immune reaction to allergens during earlier years of life.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Jin et al., 2025",
+      "Med_Class_ID": "",
+      "Route_Icon": ""
+    },
+    {
+      "ICD10_ID": "J30.4",
+      "Section_ID": "SEC_07_SUC",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Age_Elderly_65_79y",
+      "Statement_Text": "The success rate of permanently fixing the immune reaction drops heavily down to just 20% in later years.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Jin et al., 2025",
+      "Med_Class_ID": "",
+      "Route_Icon": ""
+    }
+  ]
+}

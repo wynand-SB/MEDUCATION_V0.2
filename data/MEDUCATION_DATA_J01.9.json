@@ -1,0 +1,371 @@
+{
+  "ExtractionChecklist": {
+    "renal_risks_found": [
+      "End-stage renal failure",
+      "Renal replacement therapy"
+    ],
+    "hepatic_risks_found": [
+      "None"
+    ],
+    "cardiovascular_risks_found": [
+      "None"
+    ],
+    "social_and_race_risks_found": [
+      "None"
+    ]
+  },
+  "Data": [
+    {
+      "ICD10_ID": "J01.9",
+      "Section_ID": "SEC_01_DEF",
+      "Bullet_ID": "B1",
+      "Target_Variable": "Universal_Statement",
+      "Nuance_Transition": "",
+      "Statement_Text": "This is a short-term bacterial infection of the sinus cavities that normally happens after a common cold.",
+      "Med_Class_ID": "",
+      "Route_Icon": "",
+      "Reference_Link": "Venturini et al., 2025"
+    },
+    {
+      "ICD10_ID": "J01.9",
+      "Section_ID": "SEC_01_DEF",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Nuance_Transition": "",
+      "Statement_Text": "Swelling blocks the normal pathways, trapping fluid inside the face. This creates a closed space where bacteria can grow quickly.",
+      "Med_Class_ID": "",
+      "Route_Icon": "",
+      "Reference_Link": "Okifo et al., 2022"
+    },
+    {
+      "ICD10_ID": "J01.9",
+      "Section_ID": "SEC_01_DEF",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Universal_Statement",
+      "Nuance_Transition": "",
+      "Statement_Text": "Without severe problems, the infection generally clears up in a few weeks, though symptoms can be quite uncomfortable during that time.",
+      "Med_Class_ID": "",
+      "Route_Icon": "",
+      "Reference_Link": "Hoogland et al., 2023"
+    },
+    {
+      "ICD10_ID": "J01.9",
+      "Section_ID": "SEC_02_ETI",
+      "Bullet_ID": "B1",
+      "Target_Variable": "Universal_Statement",
+      "Nuance_Transition": "",
+      "Statement_Text": "Common bacteria that live in the body grow out of control in the trapped sinus fluid.",
+      "Med_Class_ID": "",
+      "Route_Icon": "",
+      "Reference_Link": "Cheng et al., 2021"
+    },
+    {
+      "ICD10_ID": "J01.9",
+      "Section_ID": "SEC_02_ETI",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Nuance_Transition": "",
+      "Statement_Text": "Certain daily living conditions and outside factors can increase the chances of getting this infection.",
+      "Med_Class_ID": "",
+      "Route_Icon": "",
+      "Reference_Link": "Zhang et al., 2023"
+    },
+    {
+      "ICD10_ID": "J01.9",
+      "Section_ID": "SEC_02_ETI",
+      "Bullet_ID": "B2",
+      "Target_Variable": "BMI_Obese_30_Plus",
+      "Nuance_Transition": "",
+      "Statement_Text": "There is a 1.33x higher risk of developing chronic sinus issues, and chemical inflammation signals are roughly 2.2x higher in the affected tissues.",
+      "Med_Class_ID": "",
+      "Route_Icon": "",
+      "Reference_Link": "Hoying et al., 2023"
+    },
+    {
+      "ICD10_ID": "J01.9",
+      "Section_ID": "SEC_02_ETI",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Universal_Statement",
+      "Nuance_Transition": "",
+      "Statement_Text": "A recent viral infection, like a normal cold, is the most common starting point for this bacterial issue.",
+      "Med_Class_ID": "",
+      "Route_Icon": "",
+      "Reference_Link": "Venturini et al., 2025"
+    },
+    {
+      "ICD10_ID": "J01.9",
+      "Section_ID": "SEC_03_IMP",
+      "Bullet_ID": "B1",
+      "Target_Variable": "Universal_Statement",
+      "Nuance_Transition": "",
+      "Statement_Text": "Common signs include thick, yellowish or greenish mucus from the nose, blocked breathing, and pressure or pain in the face.",
+      "Med_Class_ID": "",
+      "Route_Icon": "",
+      "Reference_Link": "Svistushkin et al., 2024"
+    },
+    {
+      "ICD10_ID": "J01.9",
+      "Section_ID": "SEC_03_IMP",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Nuance_Transition": "",
+      "Statement_Text": "The constant discomfort and blocked breathing can lower the overall quality of daily life and make routine tasks much harder.",
+      "Med_Class_ID": "",
+      "Route_Icon": "",
+      "Reference_Link": "Whitehead et al., 2025"
+    },
+    {
+      "ICD10_ID": "J01.9",
+      "Section_ID": "SEC_03_IMP",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Universal_Statement",
+      "Nuance_Transition": "",
+      "Statement_Text": "Dealing with face pain and a stuffy nose day after day can feel draining and frustrating.",
+      "Med_Class_ID": "",
+      "Route_Icon": "",
+      "Reference_Link": "Whitehead et al., 2025"
+    },
+    {
+      "ICD10_ID": "J01.9",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B1",
+      "Target_Variable": "Universal_Statement",
+      "Nuance_Transition": "",
+      "Statement_Text": "It works by stopping the bacteria from building their outer walls, which ultimately kills them.",
+      "Med_Class_ID": "AMOXICILLIN",
+      "Route_Icon": "icon_route_oral.png",
+      "Reference_Link": "Jena et al., 2024"
+    },
+    {
+      "ICD10_ID": "J01.9",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Nuance_Transition": "",
+      "Statement_Text": "This is often given as a main treatment to help clear the bacterial infection.",
+      "Med_Class_ID": "AMOXICILLIN",
+      "Route_Icon": "icon_route_oral.png",
+      "Reference_Link": "Venturini et al., 2025"
+    },
+    {
+      "ICD10_ID": "J01.9",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Age_Child_4_12y",
+      "Nuance_Transition": "",
+      "Statement_Text": "A higher amount of 90 milligrams per kilogram of body weight each day is standard to fight the infection effectively.",
+      "Med_Class_ID": "AMOXICILLIN",
+      "Route_Icon": "icon_route_oral.png",
+      "Reference_Link": "Venturini et al., 2025"
+    },
+    {
+      "ICD10_ID": "J01.9",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Universal_Statement",
+      "Nuance_Transition": "",
+      "Statement_Text": "Mild stomach upset and a low chance of a skin rash can happen while taking this medicine.",
+      "Med_Class_ID": "AMOXICILLIN",
+      "Route_Icon": "icon_warning.png",
+      "Reference_Link": "Axiotakis et al., 2022"
+    },
+    {
+      "ICD10_ID": "J01.9",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B4",
+      "Target_Variable": "Universal_Statement",
+      "Nuance_Transition": "",
+      "Statement_Text": "The body breaks down and removes this medicine over a few hours.",
+      "Med_Class_ID": "AMOXICILLIN",
+      "Route_Icon": "",
+      "Reference_Link": "Al-Mahdi et al., 2024"
+    },
+    {
+      "ICD10_ID": "J01.9",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B4",
+      "Target_Variable": "Renal_Impaired_Severe_ESRD",
+      "Nuance_Transition": "",
+      "Statement_Text": "The medicine stays in the body much longer, taking between 7 to 20 hours to be removed.",
+      "Med_Class_ID": "AMOXICILLIN",
+      "Route_Icon": "",
+      "Reference_Link": "Al-Mahdi et al., 2024"
+    },
+    {
+      "ICD10_ID": "J01.9",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B4",
+      "Target_Variable": "BMI_Obese_30_Plus",
+      "Nuance_Transition": "",
+      "Statement_Text": "Lower amounts of the medicine reach the blood, meaning a 1 gram dose every 8 hours is often needed to work properly.",
+      "Med_Class_ID": "AMOXICILLIN",
+      "Route_Icon": "",
+      "Reference_Link": "De Lima Leite Dalla Rosa et al., 2022"
+    },
+    {
+      "ICD10_ID": "J01.9",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B4",
+      "Target_Variable": "Pregnancy_T2",
+      "Nuance_Transition": "",
+      "Statement_Text": "The body clears the medicine up to 50% faster, which normally means a higher dose is needed to fight the infection.",
+      "Med_Class_ID": "AMOXICILLIN",
+      "Route_Icon": "",
+      "Reference_Link": "Hesse et al., 2023"
+    },
+    {
+      "ICD10_ID": "J01.9",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B1",
+      "Target_Variable": "Universal_Statement",
+      "Nuance_Transition": "",
+      "Statement_Text": "It combines a bacteria-killing medicine with an extra ingredient that protects the medicine from being destroyed by the bacteria.",
+      "Med_Class_ID": "CO-AMOXICLAV",
+      "Route_Icon": "icon_route_oral.png",
+      "Reference_Link": "Jena et al., 2024"
+    },
+    {
+      "ICD10_ID": "J01.9",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Nuance_Transition": "",
+      "Statement_Text": "It is used when the bacteria might be stronger or harder to treat with standard medicine.",
+      "Med_Class_ID": "CO-AMOXICLAV",
+      "Route_Icon": "icon_route_oral.png",
+      "Reference_Link": "Jena et al., 2024"
+    },
+    {
+      "ICD10_ID": "J01.9",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Universal_Statement",
+      "Nuance_Transition": "",
+      "Statement_Text": "Diarrhea happens in 25 to 33 percent of cases, and there is also a 1.33x higher risk of yeast infections compared to the standard medicine alone.",
+      "Med_Class_ID": "CO-AMOXICLAV",
+      "Route_Icon": "icon_warning.png",
+      "Reference_Link": "Amani et al., 2016"
+    },
+    {
+      "ICD10_ID": "J01.9",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B4",
+      "Target_Variable": "Universal_Statement",
+      "Nuance_Transition": "",
+      "Statement_Text": "The body processes and breaks down the medicine over a few hours.",
+      "Med_Class_ID": "CO-AMOXICLAV",
+      "Route_Icon": "",
+      "Reference_Link": "Al-Mahdi et al., 2024"
+    },
+    {
+      "ICD10_ID": "J01.9",
+      "Section_ID": "SEC_05_MNG",
+      "Bullet_ID": "B1",
+      "Target_Variable": "Universal_Statement",
+      "Nuance_Transition": "",
+      "Statement_Text": "Drinking plenty of water helps thin the mucus, making it easier to clear from the nose and face.",
+      "Med_Class_ID": "",
+      "Route_Icon": "",
+      "Reference_Link": "Krivopalov et al., 2024"
+    },
+    {
+      "ICD10_ID": "J01.9",
+      "Section_ID": "SEC_05_MNG",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Nuance_Transition": "",
+      "Statement_Text": "Getting enough rest gives the body the energy it needs to fight off the infection.",
+      "Med_Class_ID": "",
+      "Route_Icon": "",
+      "Reference_Link": "Hoogland et al., 2023"
+    },
+    {
+      "ICD10_ID": "J01.9",
+      "Section_ID": "SEC_05_MNG",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Universal_Statement",
+      "Nuance_Transition": "",
+      "Statement_Text": "Avoiding damp rooms and washing hands often helps prevent spreading the germs or making symptoms worse.",
+      "Med_Class_ID": "",
+      "Route_Icon": "",
+      "Reference_Link": "Zhang et al., 2023"
+    },
+    {
+      "ICD10_ID": "J01.9",
+      "Section_ID": "SEC_06_FLG",
+      "Bullet_ID": "B1",
+      "Target_Variable": "Universal_Statement",
+      "Nuance_Transition": "",
+      "Statement_Text": "Seek medical help right away if there is swelling around the eyes, double vision, or a very severe headache.",
+      "Med_Class_ID": "",
+      "Route_Icon": "icon_warning.png",
+      "Reference_Link": "Bittner et al., 2023"
+    },
+    {
+      "ICD10_ID": "J01.9",
+      "Section_ID": "SEC_06_FLG",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Nuance_Transition": "",
+      "Statement_Text": "Stop the medicine and seek help if a severe skin rash appears or breathing becomes difficult.",
+      "Med_Class_ID": "AMOXICILLIN",
+      "Route_Icon": "icon_warning.png",
+      "Reference_Link": "Axiotakis et al., 2022"
+    },
+    {
+      "ICD10_ID": "J01.9",
+      "Section_ID": "SEC_06_FLG",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Nuance_Transition": "",
+      "Statement_Text": "Stop the medicine and seek help if diarrhea becomes severe or does not stop.",
+      "Med_Class_ID": "CO-AMOXICLAV",
+      "Route_Icon": "icon_warning.png",
+      "Reference_Link": "Jena et al., 2024"
+    },
+    {
+      "ICD10_ID": "J01.9",
+      "Section_ID": "SEC_06_FLG",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Universal_Statement",
+      "Nuance_Transition": "",
+      "Statement_Text": "A body temperature staying above 39 degrees Celsius for several days means fast medical help is needed.",
+      "Med_Class_ID": "",
+      "Route_Icon": "icon_warning.png",
+      "Reference_Link": "Butler & Hernandez, 2025"
+    },
+    {
+      "ICD10_ID": "J01.9",
+      "Section_ID": "SEC_07_SUC",
+      "Bullet_ID": "B1",
+      "Target_Variable": "Universal_Statement",
+      "Nuance_Transition": "",
+      "Statement_Text": "The main aim is to clear the bacteria, open the blocked passages, and stop the face pain.",
+      "Med_Class_ID": "",
+      "Route_Icon": "",
+      "Reference_Link": "Perić et al., 2020"
+    },
+    {
+      "ICD10_ID": "J01.9",
+      "Section_ID": "SEC_07_SUC",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Nuance_Transition": "",
+      "Statement_Text": "Breathing should become easier and the pressure in the face should fade within 7 to 14 days.",
+      "Med_Class_ID": "",
+      "Route_Icon": "",
+      "Reference_Link": "Perić et al., 2020"
+    },
+    {
+      "ICD10_ID": "J01.9",
+      "Section_ID": "SEC_07_SUC",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Universal_Statement",
+      "Nuance_Transition": "",
+      "Statement_Text": "Treating it properly prevents the infection from spreading to the eyes or brain.",
+      "Med_Class_ID": "",
+      "Route_Icon": "",
+      "Reference_Link": "Butler & Hernandez, 2025"
+    }
+  ]
+}

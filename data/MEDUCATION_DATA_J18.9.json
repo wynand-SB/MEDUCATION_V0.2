@@ -1,0 +1,472 @@
+{
+  "ExtractionChecklist": {
+    "renal_risks_found": [
+      "eGFR < 30 mL/min",
+      "Augmented Renal Clearance"
+    ],
+    "hepatic_risks_found": [
+      "None"
+    ],
+    "cardiovascular_risks_found": [
+      "QT prolongation"
+    ],
+    "social_and_race_risks_found": [
+      "Black race linked to longer hospital stay",
+      "Black and Hispanic infants have 2 to 2.5-fold higher mortality",
+      "78% HIV-positive in Malawi cohort"
+    ]
+  },
+  "Data": [
+    {
+      "ICD10_ID": "J18.9",
+      "Section_ID": "SEC_01_DEF",
+      "Bullet_ID": "B1",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "This is a lung infection caused by a mix of invading germs and the body's immune response, leading to inflammation and illness.",
+      "Reference_Link": "Schuurman et al., 2022",
+      "Med_Class_ID": "",
+      "Route_Icon": "",
+      "Nuance_Transition": ""
+    },
+    {
+      "ICD10_ID": "J18.9",
+      "Section_ID": "SEC_01_DEF",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "Germs enter the lungs and release toxins that damage cells. The immune system spots them and releases chemicals to fight back, which can cause harmful swelling.",
+      "Reference_Link": "Grousd et al., 2019; Ni et al., 2023",
+      "Med_Class_ID": "",
+      "Route_Icon": "",
+      "Nuance_Transition": ""
+    },
+    {
+      "ICD10_ID": "J18.9",
+      "Section_ID": "SEC_01_DEF",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "Severe cases have a 25% risk of death within 30 days and up to a 50% risk within one year.",
+      "Reference_Link": "Schuurman et al., 2022",
+      "Med_Class_ID": "",
+      "Route_Icon": "",
+      "Nuance_Transition": ""
+    },
+    {
+      "ICD10_ID": "J18.9",
+      "Section_ID": "SEC_01_DEF",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Age_Frail_Elderly_80_Plus",
+      "Statement_Text": "There is an over 40% risk of death in the hospital.",
+      "Reference_Link": "Gonçalves-Pereira et al., 2025",
+      "Med_Class_ID": "",
+      "Route_Icon": "",
+      "Nuance_Transition": ""
+    },
+    {
+      "ICD10_ID": "J18.9",
+      "Section_ID": "SEC_01_DEF",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Age_Infant_1_12m",
+      "Statement_Text": "There is a proven 2 to 2.5-fold higher risk of death linked to regional and genetic factors.",
+      "Reference_Link": "Gathers et al., 2025",
+      "Med_Class_ID": "",
+      "Route_Icon": "",
+      "Nuance_Transition": ""
+    },
+    {
+      "ICD10_ID": "J18.9",
+      "Section_ID": "SEC_01_DEF",
+      "Bullet_ID": "B3",
+      "Target_Variable": "BMI_Obese_30_Plus",
+      "Statement_Text": "There is a 1.5x higher risk of needing intensive care and having longer hospital stays.",
+      "Reference_Link": "Idigo et al., 2024",
+      "Med_Class_ID": "",
+      "Route_Icon": "",
+      "Nuance_Transition": ""
+    },
+    {
+      "ICD10_ID": "J18.9",
+      "Section_ID": "SEC_02_ETI",
+      "Bullet_ID": "B1",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "The main cause is bacteria, mostly Streptococcus pneumoniae, though viruses and other germs are also very common.",
+      "Reference_Link": "Schuurman et al., 2022",
+      "Med_Class_ID": "",
+      "Route_Icon": "",
+      "Nuance_Transition": ""
+    },
+    {
+      "ICD10_ID": "J18.9",
+      "Section_ID": "SEC_02_ETI",
+      "Bullet_ID": "B1",
+      "Target_Variable": "HIV_Positive_on_ART",
+      "Statement_Text": "In highly impacted regions, up to 78% of severe cases are linked to underlying immune system weakness.",
+      "Reference_Link": "Aston et al., 2019",
+      "Med_Class_ID": "",
+      "Route_Icon": "",
+      "Nuance_Transition": ""
+    },
+    {
+      "ICD10_ID": "J18.9",
+      "Section_ID": "SEC_02_ETI",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "Catching other infections or having untreated health conditions makes severe illness more likely.",
+      "Reference_Link": "Aston et al., 2019",
+      "Med_Class_ID": "",
+      "Route_Icon": "",
+      "Nuance_Transition": ""
+    },
+    {
+      "ICD10_ID": "J18.9",
+      "Section_ID": "SEC_02_ETI",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "The immune system naturally weakens over time, making severe lung infections more likely.",
+      "Reference_Link": "Gonçalves-Pereira et al., 2025",
+      "Med_Class_ID": "",
+      "Route_Icon": "",
+      "Nuance_Transition": ""
+    },
+    {
+      "ICD10_ID": "J18.9",
+      "Section_ID": "SEC_02_ETI",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Sex_Male",
+      "Statement_Text": "There is a 30% higher risk of death and notably longer hospital stays.",
+      "Reference_Link": "Idigo et al., 2024",
+      "Med_Class_ID": "",
+      "Route_Icon": "",
+      "Nuance_Transition": ""
+    },
+    {
+      "ICD10_ID": "J18.9",
+      "Section_ID": "SEC_02_ETI",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Age_Frail_Elderly_80_Plus",
+      "Statement_Text": "Swallowing fluid or food into the lungs doubles the risk of needing intensive care and increases the 30-day death risk by 2 to 2.5 times.",
+      "Reference_Link": "Almirall et al., 2025",
+      "Med_Class_ID": "",
+      "Route_Icon": "",
+      "Nuance_Transition": ""
+    },
+    {
+      "ICD10_ID": "J18.9",
+      "Section_ID": "SEC_03_IMP",
+      "Bullet_ID": "B1",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "Common signs include coughing up mucus, sharp chest pain when breathing, and shortness of breath.",
+      "Reference_Link": "Hoeffken et al., 2001; Stets et al., 2019",
+      "Med_Class_ID": "",
+      "Route_Icon": "",
+      "Nuance_Transition": ""
+    },
+    {
+      "ICD10_ID": "J18.9",
+      "Section_ID": "SEC_03_IMP",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "Low oxygen and physical weakness are common, making everyday tasks very difficult.",
+      "Reference_Link": "Aston et al., 2019",
+      "Med_Class_ID": "",
+      "Route_Icon": "",
+      "Nuance_Transition": ""
+    },
+    {
+      "ICD10_ID": "J18.9",
+      "Section_ID": "SEC_03_IMP",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "A long hospital stay and slow recovery can lead to feelings of frustration and worry.",
+      "Reference_Link": "",
+      "Med_Class_ID": "",
+      "Route_Icon": "",
+      "Nuance_Transition": ""
+    },
+    {
+      "ICD10_ID": "J18.9",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B1",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "Stops germs from building their outer walls, which breaks them apart and kills them.",
+      "Reference_Link": "Gibson & Veening, 2023",
+      "Med_Class_ID": "Beta-lactams",
+      "Route_Icon": "icon_route_oral.png",
+      "Nuance_Transition": ""
+    },
+    {
+      "ICD10_ID": "J18.9",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "Given right away as a main treatment to stop the infection from spreading.",
+      "Reference_Link": "Silva et al., 2022",
+      "Med_Class_ID": "Beta-lactams",
+      "Route_Icon": "",
+      "Nuance_Transition": ""
+    },
+    {
+      "ICD10_ID": "J18.9",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "More than 10% of people get stomach issues like diarrhea or nausea.",
+      "Reference_Link": "Torgunakova et al., 2020",
+      "Med_Class_ID": "Beta-lactams",
+      "Route_Icon": "icon_warning.png",
+      "Nuance_Transition": ""
+    },
+    {
+      "ICD10_ID": "J18.9",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B4",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "The body filters this out over a few hours.",
+      "Reference_Link": "Paredes et al., 2022",
+      "Med_Class_ID": "Beta-lactams",
+      "Route_Icon": "",
+      "Nuance_Transition": ""
+    },
+    {
+      "ICD10_ID": "J18.9",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B4",
+      "Target_Variable": "Renal_Impaired_Severe_ESRD",
+      "Statement_Text": "Doses must be adjusted because about 35% of prescriptions are incorrect when normal organ filtration is low.",
+      "Reference_Link": "Paredes et al., 2022",
+      "Med_Class_ID": "Beta-lactams",
+      "Route_Icon": "icon_warning.png",
+      "Nuance_Transition": ""
+    },
+    {
+      "ICD10_ID": "J18.9",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B4",
+      "Target_Variable": "Renal_Impaired_Mild_Moderate",
+      "Statement_Text": "When the body flushes fluids faster than normal, standard medicine doses might leave the system too quickly to work effectively.",
+      "Reference_Link": "Dreesen et al., 2022",
+      "Med_Class_ID": "Beta-lactams",
+      "Route_Icon": "icon_warning.png",
+      "Nuance_Transition": ""
+    },
+    {
+      "ICD10_ID": "J18.9",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B1",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "Stops germs from making the proteins they need to survive.",
+      "Reference_Link": "Torres et al., 2003",
+      "Med_Class_ID": "Macrolides",
+      "Route_Icon": "icon_route_oral.png",
+      "Nuance_Transition": ""
+    },
+    {
+      "ICD10_ID": "J18.9",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "Used for different types of germs, normally combined with other medicines.",
+      "Reference_Link": "Torres et al., 2003",
+      "Med_Class_ID": "Macrolides",
+      "Route_Icon": "",
+      "Nuance_Transition": ""
+    },
+    {
+      "ICD10_ID": "J18.9",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "Can cause a bad taste in the mouth or mild stomach pain.",
+      "Reference_Link": "Hoeffken et al., 2001",
+      "Med_Class_ID": "Macrolides",
+      "Route_Icon": "icon_warning.png",
+      "Nuance_Transition": ""
+    },
+    {
+      "ICD10_ID": "J18.9",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B4",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "The body processes this medicine well, but it can affect the heart rhythm.",
+      "Reference_Link": "Zhang et al., 2024",
+      "Med_Class_ID": "Macrolides",
+      "Route_Icon": "",
+      "Nuance_Transition": ""
+    },
+    {
+      "ICD10_ID": "J18.9",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B4",
+      "Target_Variable": "Age_Elderly_65_79y",
+      "Statement_Text": "There is an up to 15% higher risk of heart rhythm problems that require medical monitoring.",
+      "Reference_Link": "Zhang et al., 2024",
+      "Med_Class_ID": "Macrolides",
+      "Route_Icon": "icon_warning.png",
+      "Nuance_Transition": ""
+    },
+    {
+      "ICD10_ID": "J18.9",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B1",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "Stops germs from copying their DNA, which prevents them from multiplying.",
+      "Reference_Link": "Kuzman et al., 2014",
+      "Med_Class_ID": "Fluoroquinolones",
+      "Route_Icon": "icon_route_oral.png",
+      "Nuance_Transition": ""
+    },
+    {
+      "ICD10_ID": "J18.9",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "Used to treat a wide range of germs in the lungs.",
+      "Reference_Link": "Kuzman et al., 2014",
+      "Med_Class_ID": "Fluoroquinolones",
+      "Route_Icon": "",
+      "Nuance_Transition": ""
+    },
+    {
+      "ICD10_ID": "J18.9",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "Around 20% of people report side effects, mostly mild diarrhea.",
+      "Reference_Link": "Torres et al., 2003",
+      "Med_Class_ID": "Fluoroquinolones",
+      "Route_Icon": "icon_warning.png",
+      "Nuance_Transition": ""
+    },
+    {
+      "ICD10_ID": "J18.9",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B4",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "Requires monitoring but is generally handled well without needing to change standard doses.",
+      "Reference_Link": "Hoeffken et al., 2001",
+      "Med_Class_ID": "Fluoroquinolones",
+      "Route_Icon": "",
+      "Nuance_Transition": ""
+    },
+    {
+      "ICD10_ID": "J18.9",
+      "Section_ID": "SEC_05_MNG",
+      "Bullet_ID": "B1",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "Eating a balanced diet gives the body enough energy to heal the lungs.",
+      "Reference_Link": "",
+      "Med_Class_ID": "",
+      "Route_Icon": "",
+      "Nuance_Transition": ""
+    },
+    {
+      "ICD10_ID": "J18.9",
+      "Section_ID": "SEC_05_MNG",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "Getting plenty of rest helps the immune system fight off the infection.",
+      "Reference_Link": "",
+      "Med_Class_ID": "",
+      "Route_Icon": "",
+      "Nuance_Transition": ""
+    },
+    {
+      "ICD10_ID": "J18.9",
+      "Section_ID": "SEC_05_MNG",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "Washing hands and avoiding smoke helps protect the lungs from more damage.",
+      "Reference_Link": "",
+      "Med_Class_ID": "",
+      "Route_Icon": "",
+      "Nuance_Transition": ""
+    },
+    {
+      "ICD10_ID": "J18.9",
+      "Section_ID": "SEC_06_FLG",
+      "Bullet_ID": "B1",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "A high score measuring confusion, fast breathing, and low blood pressure shows an up to 25% risk of death and means urgent hospital care is needed right away.",
+      "Reference_Link": "Kuzman et al., 2014",
+      "Med_Class_ID": "",
+      "Route_Icon": "icon_warning.png",
+      "Nuance_Transition": ""
+    },
+    {
+      "ICD10_ID": "J18.9",
+      "Section_ID": "SEC_06_FLG",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "Look out for severe skin rashes or signs of a serious allergic reaction, which happen in about 9% of side effect cases.",
+      "Reference_Link": "Torgunakova et al., 2020",
+      "Med_Class_ID": "Beta-lactams",
+      "Route_Icon": "icon_warning.png",
+      "Nuance_Transition": ""
+    },
+    {
+      "ICD10_ID": "J18.9",
+      "Section_ID": "SEC_06_FLG",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "Look out for irregular heartbeats, especially if taking other medicines at the same time.",
+      "Reference_Link": "Таубэ et al., 2021",
+      "Med_Class_ID": "Macrolides",
+      "Route_Icon": "icon_warning.png",
+      "Nuance_Transition": ""
+    },
+    {
+      "ICD10_ID": "J18.9",
+      "Section_ID": "SEC_06_FLG",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "Watch for severe stomach pain or signs of organ trouble.",
+      "Reference_Link": "Hoeffken et al., 2001",
+      "Med_Class_ID": "Fluoroquinolones",
+      "Route_Icon": "icon_warning.png",
+      "Nuance_Transition": ""
+    },
+    {
+      "ICD10_ID": "J18.9",
+      "Section_ID": "SEC_06_FLG",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "Danger signs include oxygen levels falling below 90% and the top blood pressure number dropping under 90.",
+      "Reference_Link": "Aston et al., 2019; File et al., 2025",
+      "Med_Class_ID": "",
+      "Route_Icon": "icon_warning.png",
+      "Nuance_Transition": ""
+    },
+    {
+      "ICD10_ID": "J18.9",
+      "Section_ID": "SEC_07_SUC",
+      "Bullet_ID": "B1",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "The main goal is to clear the infection and return breathing and heart rates to normal within 2 to 5 days.",
+      "Reference_Link": "Stets et al., 2019",
+      "Med_Class_ID": "",
+      "Route_Icon": "",
+      "Nuance_Transition": ""
+    },
+    {
+      "ICD10_ID": "J18.9",
+      "Section_ID": "SEC_07_SUC",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "Fever dropping below 37.8 degrees Celsius and a steady heart rate under 100 beats per minute show the body is healing.",
+      "Reference_Link": "File et al., 2025",
+      "Med_Class_ID": "",
+      "Route_Icon": "",
+      "Nuance_Transition": ""
+    },
+    {
+      "ICD10_ID": "J18.9",
+      "Section_ID": "SEC_07_SUC",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Universal_Statement",
+      "Statement_Text": "Getting vaccines for common lung bacteria and viruses prevents the infection from coming back.",
+      "Reference_Link": "Schuurman et al., 2022",
+      "Med_Class_ID": "",
+      "Route_Icon": "",
+      "Nuance_Transition": ""
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "J06.9": {
+    "name": "Acute Upper Respiratory Infection",
+    "aka": "Commonly known as a URTI or Head Cold",
+    "module": "Respiratory & ENT"
+  },
+  "J00": {
+    "name": "Acute Viral Rhinopharyngitis",
+    "aka": "Commonly known as the Common Cold",
+    "module": "Respiratory & ENT"
+  },
+  "J01.9": {
+    "name": "Acute Bacterial Rhinosinusitis",
+    "aka": "Commonly known as a Sinus Infection",
+    "module": "Respiratory & ENT"
+  },
+  "J02.9": {
+    "name": "Acute Pharyngitis",
+    "aka": "Commonly known as a Viral Sore Throat",
+    "module": "Respiratory & ENT"
+  },
+  "J03.9": {
+    "name": "Acute Pharyngotonsillitis",
+    "aka": "Commonly known as Strep Throat or Tonsillitis",
+    "module": "Respiratory & ENT"
+  },
+  "J20.9": {
+    "name": "Acute Bronchitis",
+    "aka": "Commonly known as a Chest Cold",
+    "module": "Respiratory & ENT"
+  },
+  "J11.1": {
+    "name": "Seasonal Influenza",
+    "aka": "Commonly known as the Flu",
+    "module": "Respiratory & ENT"
+  },
+  "J18.9": {
+    "name": "Community-Acquired Pneumonia",
+    "aka": "Commonly known as CAP or a Lung Infection",
+    "module": "Respiratory & ENT"
+  },
+  "U07.1": {
+    "name": "COVID-19",
+    "aka": "Commonly known as SARS-CoV-2 Infection",
+    "module": "Respiratory & ENT"
+  },
+  "J30.4": {
+    "name": "Allergic Rhinitis",
+    "aka": "Commonly known as Hay Fever or Seasonal Allergies",
+    "module": "Respiratory & ENT"
+  }
+}

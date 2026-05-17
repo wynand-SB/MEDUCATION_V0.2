@@ -1,0 +1,530 @@
+{
+  "ExtractionChecklist": {
+    "renal_risks_found": [
+      "Impaired renal function increases drug-drug interaction burden"
+    ],
+    "hepatic_risks_found": [
+      "None"
+    ],
+    "cardiovascular_risks_found": [
+      "Cardiovascular disease",
+      "Metabolic syndrome",
+      "Heart failure",
+      "Arrhythmia"
+    ],
+    "social_and_race_risks_found": [
+      "Lower-socioeconomic urban/industrial populations",
+      "Black race associated with higher odds of receiving antibiotics",
+      "Hispanic and Asian patients less likely to receive antibiotics",
+      "Male sex genetic predisposition"
+    ]
+  },
+  "Data": [
+    {
+      "ICD10_ID": "J20.9",
+      "Section_ID": "SEC_01_DEF",
+      "Bullet_ID": "B1",
+      "Target_Variable": "Universal_Statement",
+      "Nuance_Transition": "",
+      "Statement_Text": "The condition is a sudden swelling of the breathing tubes, normally showing up as a cough that goes away on its own in 1 to 3 weeks.",
+      "Med_Class_ID": "",
+      "Route_Icon": "",
+      "Reference_Link": "Shalabi et al., 2022"
+    },
+    {
+      "ICD10_ID": "J20.9",
+      "Section_ID": "SEC_01_DEF",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Nuance_Transition": "",
+      "Statement_Text": "The virus harms the inner walls of the breathing tubes, causing them to swell and make extra mucus.",
+      "Med_Class_ID": "",
+      "Route_Icon": "",
+      "Reference_Link": "Shalabi et al., 2022"
+    },
+    {
+      "ICD10_ID": "J20.9",
+      "Section_ID": "SEC_01_DEF",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Universal_Statement",
+      "Nuance_Transition": "",
+      "Statement_Text": "The body will heal on its own over 2 to 3 weeks without needing special medicine in most cases.",
+      "Med_Class_ID": "",
+      "Route_Icon": "",
+      "Reference_Link": "Shalabi et al., 2022"
+    },
+    {
+      "ICD10_ID": "J20.9",
+      "Section_ID": "SEC_01_DEF",
+      "Bullet_ID": "B3",
+      "Target_Variable": "BMI_Obese_30_Plus",
+      "Nuance_Transition": "",
+      "Statement_Text": "There is a worsened severity of the infection, leading to more breathing trouble and a higher rate of complications.",
+      "Med_Class_ID": "",
+      "Route_Icon": "icon_warning.png",
+      "Reference_Link": "Xuan et al., 2025"
+    },
+    {
+      "ICD10_ID": "J20.9",
+      "Section_ID": "SEC_02_ETI",
+      "Bullet_ID": "B1",
+      "Target_Variable": "Universal_Statement",
+      "Nuance_Transition": "",
+      "Statement_Text": "The main cause is a virus, such as the common cold or flu, getting into the lungs.",
+      "Med_Class_ID": "",
+      "Route_Icon": "",
+      "Reference_Link": "Shalabi et al., 2022"
+    },
+    {
+      "ICD10_ID": "J20.9",
+      "Section_ID": "SEC_02_ETI",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Nuance_Transition": "",
+      "Statement_Text": "Certain factors in the surrounding environment can make the lungs more likely to get sick.",
+      "Med_Class_ID": "",
+      "Route_Icon": "",
+      "Reference_Link": "Shalabi et al., 2022"
+    },
+    {
+      "ICD10_ID": "J20.9",
+      "Section_ID": "SEC_02_ETI",
+      "Bullet_ID": "B2",
+      "Target_Variable": "BMI_Obese_30_Plus",
+      "Nuance_Transition": "",
+      "Statement_Text": "There is an approximately 1.25 times higher risk of catching this infection.",
+      "Med_Class_ID": "",
+      "Route_Icon": "",
+      "Reference_Link": "Yang et al., 2023"
+    },
+    {
+      "ICD10_ID": "J20.9",
+      "Section_ID": "SEC_02_ETI",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Universal_Statement",
+      "Nuance_Transition": "",
+      "Statement_Text": "Some genetic patterns make certain bodies catch this infection more easily than others.",
+      "Med_Class_ID": "",
+      "Route_Icon": "",
+      "Reference_Link": "Shalabi et al., 2022"
+    },
+    {
+      "ICD10_ID": "J20.9",
+      "Section_ID": "SEC_02_ETI",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Sex_Male",
+      "Nuance_Transition": "",
+      "Statement_Text": "There is a proven genetic tendency that makes the infection happen more often.",
+      "Med_Class_ID": "",
+      "Route_Icon": "",
+      "Reference_Link": "Shalabi et al., 2022"
+    },
+    {
+      "ICD10_ID": "J20.9",
+      "Section_ID": "SEC_03_IMP",
+      "Bullet_ID": "B1",
+      "Target_Variable": "Universal_Statement",
+      "Nuance_Transition": "",
+      "Statement_Text": "Physical signs include a cough that may or may not bring up mucus, chest pain when coughing, and shortness of breath.",
+      "Med_Class_ID": "",
+      "Route_Icon": "",
+      "Reference_Link": "Shalabi et al., 2022"
+    },
+    {
+      "ICD10_ID": "J20.9",
+      "Section_ID": "SEC_03_IMP",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Nuance_Transition": "",
+      "Statement_Text": "Daily tasks will feel harder for about 2 to 3 weeks while the body works to heal the lungs.",
+      "Med_Class_ID": "",
+      "Route_Icon": "",
+      "Reference_Link": "Shalabi et al., 2022"
+    },
+    {
+      "ICD10_ID": "J20.9",
+      "Section_ID": "SEC_03_IMP",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Universal_Statement",
+      "Nuance_Transition": "",
+      "Statement_Text": "A long-lasting cough can make it hard to sleep, leaving a person feeling very tired and worn out.",
+      "Med_Class_ID": "",
+      "Route_Icon": "",
+      "Reference_Link": "Shalabi et al., 2022"
+    },
+    {
+      "ICD10_ID": "J20.9",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B1",
+      "Target_Variable": "Universal_Statement",
+      "Nuance_Transition": "",
+      "Statement_Text": "The medicine relaxes the tight muscles around the breathing tubes to let more air in.",
+      "Med_Class_ID": "SALBUTAMOL",
+      "Route_Icon": "",
+      "Reference_Link": "Marques & Vale, 2022"
+    },
+    {
+      "ICD10_ID": "J20.9",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Nuance_Transition": "",
+      "Statement_Text": "It is used when the chest feels tight or there is a whistling sound while breathing.",
+      "Med_Class_ID": "SALBUTAMOL",
+      "Route_Icon": "",
+      "Reference_Link": "Leung, 2021"
+    },
+    {
+      "ICD10_ID": "J20.9",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Universal_Statement",
+      "Nuance_Transition": "",
+      "Statement_Text": "About 34% of people may feel a fast heartbeat or fluttering in the chest.",
+      "Med_Class_ID": "SALBUTAMOL",
+      "Route_Icon": "",
+      "Reference_Link": "Lan et al., 2023"
+    },
+    {
+      "ICD10_ID": "J20.9",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B4",
+      "Target_Variable": "Universal_Statement",
+      "Nuance_Transition": "",
+      "Statement_Text": "The liver breaks down about half of the medicine right away, and it reaches peak levels in about 2 hours when swallowed.",
+      "Med_Class_ID": "SALBUTAMOL",
+      "Route_Icon": "icon_route_oral.png",
+      "Reference_Link": "Marques & Vale, 2022"
+    },
+    {
+      "ICD10_ID": "J20.9",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B4",
+      "Target_Variable": "Age_Child_4_12y",
+      "Nuance_Transition": "",
+      "Statement_Text": "For severe cases, it is given directly into the vein at a rate of 0.5 micrograms per kilogram per minute, based on body weight.",
+      "Med_Class_ID": "SALBUTAMOL",
+      "Route_Icon": "",
+      "Reference_Link": "Walsh et al., 2022"
+    },
+    {
+      "ICD10_ID": "J20.9",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B1",
+      "Target_Variable": "Universal_Statement",
+      "Nuance_Transition": "",
+      "Statement_Text": "The medicine blocks bacteria from defending themselves, making it easier to clear the infection.",
+      "Med_Class_ID": "AMOXICILLIN_CLAVULANATE",
+      "Route_Icon": "",
+      "Reference_Link": "Keij et al., 2022"
+    },
+    {
+      "ICD10_ID": "J20.9",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Nuance_Transition": "",
+      "Statement_Text": "It is used only for confirmed bacterial infections, as it does not work against viruses.",
+      "Med_Class_ID": "AMOXICILLIN_CLAVULANATE",
+      "Route_Icon": "",
+      "Reference_Link": "Ncube et al., 2017"
+    },
+    {
+      "ICD10_ID": "J20.9",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Universal_Statement",
+      "Nuance_Transition": "",
+      "Statement_Text": "More than 10% of people will have an upset stomach or loose stools, while less than 1% may have a severe allergic reaction.",
+      "Med_Class_ID": "AMOXICILLIN_CLAVULANATE",
+      "Route_Icon": "",
+      "Reference_Link": "Keij et al., 2022"
+    },
+    {
+      "ICD10_ID": "J20.9",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B4",
+      "Target_Variable": "Universal_Statement",
+      "Nuance_Transition": "",
+      "Statement_Text": "The body clears this medicine at different speeds based on size and physical maturity.",
+      "Med_Class_ID": "AMOXICILLIN_CLAVULANATE",
+      "Route_Icon": "icon_route_oral.png",
+      "Reference_Link": "Keij et al., 2022"
+    },
+    {
+      "ICD10_ID": "J20.9",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B4",
+      "Target_Variable": "Age_Child_4_12y",
+      "Nuance_Transition": "",
+      "Statement_Text": "Doses are strictly measured by body weight, normally ranging from 10 to 20 milligrams per kilogram for each dose.",
+      "Med_Class_ID": "AMOXICILLIN_CLAVULANATE",
+      "Route_Icon": "",
+      "Reference_Link": "Keij et al., 2022"
+    },
+    {
+      "ICD10_ID": "J20.9",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B1",
+      "Target_Variable": "Universal_Statement",
+      "Nuance_Transition": "",
+      "Statement_Text": "The medicine changes signals in the brain to raise the point at which the body feels the urge to cough.",
+      "Med_Class_ID": "DEXTROMETHORPHAN",
+      "Route_Icon": "",
+      "Reference_Link": "Paul et al., 2017"
+    },
+    {
+      "ICD10_ID": "J20.9",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Nuance_Transition": "",
+      "Statement_Text": "It is used to calm a dry cough that does not bring up any mucus.",
+      "Med_Class_ID": "DEXTROMETHORPHAN",
+      "Route_Icon": "",
+      "Reference_Link": "Paul et al., 2017"
+    },
+    {
+      "ICD10_ID": "J20.9",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Universal_Statement",
+      "Nuance_Transition": "",
+      "Statement_Text": "Taking too much can cause a racing heart, stumbling, or flushed skin in about 18.1% of overdose cases.",
+      "Med_Class_ID": "DEXTROMETHORPHAN",
+      "Route_Icon": "",
+      "Reference_Link": "Paul et al., 2017"
+    },
+    {
+      "ICD10_ID": "J20.9",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B4",
+      "Target_Variable": "Universal_Statement",
+      "Nuance_Transition": "",
+      "Statement_Text": "It must be measured perfectly to stop accidental poisoning.",
+      "Med_Class_ID": "DEXTROMETHORPHAN",
+      "Route_Icon": "icon_route_oral.png",
+      "Reference_Link": "Wang et al., 2020"
+    },
+    {
+      "ICD10_ID": "J20.9",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B4",
+      "Target_Variable": "Age_Infant_1_12m",
+      "Nuance_Transition": "OVERRIDE",
+      "Statement_Text": "This medicine must never be used due to a massive risk of accidental poisoning.",
+      "Med_Class_ID": "DEXTROMETHORPHAN",
+      "Route_Icon": "icon_warning.png",
+      "Reference_Link": "Wang et al., 2020"
+    },
+    {
+      "ICD10_ID": "J20.9",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B1",
+      "Target_Variable": "Universal_Statement",
+      "Nuance_Transition": "",
+      "Statement_Text": "The medicine binds to specific points in the brain to turn off the cough reflex.",
+      "Med_Class_ID": "CODEINE",
+      "Route_Icon": "",
+      "Reference_Link": "SAHPRA Warning"
+    },
+    {
+      "ICD10_ID": "J20.9",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Nuance_Transition": "",
+      "Statement_Text": "It is used to stop severe, dry coughs that disrupt normal life.",
+      "Med_Class_ID": "CODEINE",
+      "Route_Icon": "",
+      "Reference_Link": "SAHPRA Warning"
+    },
+    {
+      "ICD10_ID": "J20.9",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Universal_Statement",
+      "Nuance_Transition": "",
+      "Statement_Text": "Common side effects include feeling very sleepy and having hard stools, with a rare risk of breathing slowing down too much.",
+      "Med_Class_ID": "CODEINE",
+      "Route_Icon": "",
+      "Reference_Link": "SAHPRA Warning"
+    },
+    {
+      "ICD10_ID": "J20.9",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B4",
+      "Target_Variable": "Universal_Statement",
+      "Nuance_Transition": "",
+      "Statement_Text": "The liver slowly processes the medicine into a stronger form to keep the cough away.",
+      "Med_Class_ID": "CODEINE",
+      "Route_Icon": "icon_route_oral.png",
+      "Reference_Link": "SAHPRA Warning"
+    },
+    {
+      "ICD10_ID": "J20.9",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B4",
+      "Target_Variable": "Age_Child_4_12y",
+      "Nuance_Transition": "OVERRIDE",
+      "Statement_Text": "This medicine must never be used due to extreme danger, especially after having tonsils removed.",
+      "Med_Class_ID": "CODEINE",
+      "Route_Icon": "icon_warning.png",
+      "Reference_Link": "SAHPRA Warning"
+    },
+    {
+      "ICD10_ID": "J20.9",
+      "Section_ID": "SEC_05_MNG",
+      "Bullet_ID": "B1",
+      "Target_Variable": "Universal_Statement",
+      "Nuance_Transition": "",
+      "Statement_Text": "Taking honey has proven to be helpful for soothing a sore throat and protecting the soft tissues inside the mouth.",
+      "Med_Class_ID": "",
+      "Route_Icon": "",
+      "Reference_Link": "Khosroshahi et al., 2023"
+    },
+    {
+      "ICD10_ID": "J20.9",
+      "Section_ID": "SEC_05_MNG",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Nuance_Transition": "",
+      "Statement_Text": "Drinking enough water is critical to help the body recover and keep mucus thin.",
+      "Med_Class_ID": "",
+      "Route_Icon": "",
+      "Reference_Link": "Horhat et al., 2025"
+    },
+    {
+      "ICD10_ID": "J20.9",
+      "Section_ID": "SEC_05_MNG",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Universal_Statement",
+      "Nuance_Transition": "",
+      "Statement_Text": "Learning that the cough will pass on its own is the main step to staying calm and healing.",
+      "Med_Class_ID": "",
+      "Route_Icon": "",
+      "Reference_Link": "Shalabi et al., 2022"
+    },
+    {
+      "ICD10_ID": "J20.9",
+      "Section_ID": "SEC_06_FLG",
+      "Bullet_ID": "B1",
+      "Target_Variable": "Universal_Statement",
+      "Nuance_Transition": "",
+      "Statement_Text": "Get medical help right away if breathing gets harder, a very high fever starts, or blood comes out with the cough.",
+      "Med_Class_ID": "",
+      "Route_Icon": "icon_warning.png",
+      "Reference_Link": "Shalabi et al., 2022"
+    },
+    {
+      "ICD10_ID": "J20.9",
+      "Section_ID": "SEC_06_FLG",
+      "Bullet_ID": "B1",
+      "Target_Variable": "Age_Infant_1_12m",
+      "Nuance_Transition": "",
+      "Statement_Text": "Signs of severe distress include wide nostrils or grunting noises with every breath.",
+      "Med_Class_ID": "",
+      "Route_Icon": "icon_warning.png",
+      "Reference_Link": "Pittet et al., 2023"
+    },
+    {
+      "ICD10_ID": "J20.9",
+      "Section_ID": "SEC_06_FLG",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Nuance_Transition": "",
+      "Statement_Text": "Stop taking the medicine if the heart races too fast or muscles start to shake.",
+      "Med_Class_ID": "SALBUTAMOL",
+      "Route_Icon": "icon_warning.png",
+      "Reference_Link": "Lan et al., 2023"
+    },
+    {
+      "ICD10_ID": "J20.9",
+      "Section_ID": "SEC_06_FLG",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Nuance_Transition": "",
+      "Statement_Text": "Stop taking the medicine right away if signs of a severe allergy appear.",
+      "Med_Class_ID": "AMOXICILLIN_CLAVULANATE",
+      "Route_Icon": "icon_warning.png",
+      "Reference_Link": "Keij et al., 2022"
+    },
+    {
+      "ICD10_ID": "J20.9",
+      "Section_ID": "SEC_06_FLG",
+      "Bullet_ID": "B2",
+      "Target_Variable": "HIV_Positive_on_ART",
+      "Nuance_Transition": "OVERRIDE",
+      "Statement_Text": "Antibiotics are required for this specific immune condition, unlike standard cases.",
+      "Med_Class_ID": "AMOXICILLIN_CLAVULANATE",
+      "Route_Icon": "",
+      "Reference_Link": "Ncube et al., 2017"
+    },
+    {
+      "ICD10_ID": "J20.9",
+      "Section_ID": "SEC_06_FLG",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Nuance_Transition": "",
+      "Statement_Text": "Watch out for sudden clumsiness, extreme sleepiness, or a racing heart.",
+      "Med_Class_ID": "DEXTROMETHORPHAN",
+      "Route_Icon": "icon_warning.png",
+      "Reference_Link": "Paul et al., 2017"
+    },
+    {
+      "ICD10_ID": "J20.9",
+      "Section_ID": "SEC_06_FLG",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Nuance_Transition": "",
+      "Statement_Text": "Watch out for breathing that becomes very slow or shallow.",
+      "Med_Class_ID": "CODEINE",
+      "Route_Icon": "icon_warning.png",
+      "Reference_Link": "SAHPRA Warning"
+    },
+    {
+      "ICD10_ID": "J20.9",
+      "Section_ID": "SEC_06_FLG",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Universal_Statement",
+      "Nuance_Transition": "",
+      "Statement_Text": "A doctor needs to check the lungs if the cough does not go away after 3 weeks.",
+      "Med_Class_ID": "",
+      "Route_Icon": "",
+      "Reference_Link": "Shalabi et al., 2022"
+    },
+    {
+      "ICD10_ID": "J20.9",
+      "Section_ID": "SEC_07_SUC",
+      "Bullet_ID": "B1",
+      "Target_Variable": "Universal_Statement",
+      "Nuance_Transition": "",
+      "Statement_Text": "The medical goal is to drop the sickness score by about 4 points within 7 days.",
+      "Med_Class_ID": "",
+      "Route_Icon": "",
+      "Reference_Link": "Lee et al., 2022"
+    },
+    {
+      "ICD10_ID": "J20.9",
+      "Section_ID": "SEC_07_SUC",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Nuance_Transition": "",
+      "Statement_Text": "Physical relief means coughing fits drop from more than 15 times a day down to almost zero.",
+      "Med_Class_ID": "",
+      "Route_Icon": "",
+      "Reference_Link": "Lee et al., 2022"
+    },
+    {
+      "ICD10_ID": "J20.9",
+      "Section_ID": "SEC_07_SUC",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Universal_Statement",
+      "Nuance_Transition": "",
+      "Statement_Text": "Long-term protection is achieved when the lungs are fully clear and the cough is completely gone by 14 to 21 days.",
+      "Med_Class_ID": "",
+      "Route_Icon": "",
+      "Reference_Link": "Shalabi et al., 2022"
+    }
+  ]
+}

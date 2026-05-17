@@ -1,0 +1,447 @@
+{
+  "ExtractionChecklist": {
+    "renal_risks_found": [
+      "Requires dose reduction for Oseltamivir"
+    ],
+    "hepatic_risks_found": [
+      "Rare fulminant hepatitis with Oseltamivir"
+    ],
+    "cardiovascular_risks_found": [
+      "None"
+    ],
+    "social_and_race_risks_found": [
+      "Black, Hispanic, and Indigenous populations show significantly higher hospitalization and ICU admission rates (OR 1.8–6.4)"
+    ]
+  },
+  "Data": [
+    {
+      "ICD10_ID": "J11.1",
+      "Section_ID": "SEC_01_DEF",
+      "Bullet_ID": "B1",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "",
+      "Route_Icon": "",
+      "Statement_Text": "This is a viral infection of the nose, throat, and lungs.",
+      "Nuance_Transition": "",
+      "Reference_Link": ""
+    },
+    {
+      "ICD10_ID": "J11.1",
+      "Section_ID": "SEC_01_DEF",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "",
+      "Route_Icon": "",
+      "Statement_Text": "The virus enters the breathing tubes and causes the body to fight back with wide-spread inflammation.",
+      "Nuance_Transition": "",
+      "Reference_Link": ""
+    },
+    {
+      "ICD10_ID": "J11.1",
+      "Section_ID": "SEC_01_DEF",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "",
+      "Route_Icon": "",
+      "Statement_Text": "It starts with sudden fever and muscle aches, and most people recover, but it can lead to severe lung damage.",
+      "Nuance_Transition": "",
+      "Reference_Link": ""
+    },
+    {
+      "ICD10_ID": "J11.1",
+      "Section_ID": "SEC_02_ETI",
+      "Bullet_ID": "B1",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "",
+      "Route_Icon": "",
+      "Statement_Text": "It is caused by Influenza A and B viruses.",
+      "Nuance_Transition": "",
+      "Reference_Link": ""
+    },
+    {
+      "ICD10_ID": "J11.1",
+      "Section_ID": "SEC_02_ETI",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "",
+      "Route_Icon": "",
+      "Statement_Text": "Lack of a yearly vaccine increases the chance of catching the infection.",
+      "Nuance_Transition": "",
+      "Reference_Link": ""
+    },
+    {
+      "ICD10_ID": "J11.1",
+      "Section_ID": "SEC_02_ETI",
+      "Bullet_ID": "B2",
+      "Target_Variable": "BMI_Obese_30_Plus",
+      "Med_Class_ID": "",
+      "Route_Icon": "",
+      "Statement_Text": "There is a proven dose-response relationship where carrying excess body weight causes a 1.5x to 2x higher risk of breathing failure.",
+      "Nuance_Transition": "",
+      "Reference_Link": "McGovern et al., 2024"
+    },
+    {
+      "ICD10_ID": "J11.1",
+      "Section_ID": "SEC_02_ETI",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "",
+      "Route_Icon": "",
+      "Statement_Text": "Personal health factors shape how severe the sickness becomes.",
+      "Nuance_Transition": "",
+      "Reference_Link": ""
+    },
+    {
+      "ICD10_ID": "J11.1",
+      "Section_ID": "SEC_02_ETI",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Age_Elderly_65_79y",
+      "Med_Class_ID": "",
+      "Route_Icon": "",
+      "Statement_Text": "There is a proven 3 to 4 times higher risk of needing intensive hospital care.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Ameen, 2025"
+    },
+    {
+      "ICD10_ID": "J11.1",
+      "Section_ID": "SEC_02_ETI",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Age_Neonate_0_28d",
+      "Med_Class_ID": "",
+      "Route_Icon": "",
+      "Statement_Text": "There is a proven 2.5x higher risk of severe illness and hospital admission.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Uyeki et al., 2019"
+    },
+    {
+      "ICD10_ID": "J11.1",
+      "Section_ID": "SEC_03_IMP",
+      "Bullet_ID": "B1",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "",
+      "Route_Icon": "",
+      "Statement_Text": "Symptoms include sudden high fever, headache, muscle pain, and a dry cough.",
+      "Nuance_Transition": "",
+      "Reference_Link": ""
+    },
+    {
+      "ICD10_ID": "J11.1",
+      "Section_ID": "SEC_03_IMP",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "",
+      "Route_Icon": "",
+      "Statement_Text": "The illness can cause moderate-to-severe tiredness and a loss of daily function.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Brown et al., 2023"
+    },
+    {
+      "ICD10_ID": "J11.1",
+      "Section_ID": "SEC_03_IMP",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "",
+      "Route_Icon": "",
+      "Statement_Text": "The sudden illness can cause distress and ongoing fatigue.",
+      "Nuance_Transition": "",
+      "Reference_Link": ""
+    },
+    {
+      "ICD10_ID": "J11.1",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B1",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "OSELTAMIVIR",
+      "Route_Icon": "icon_route_oral.png",
+      "Statement_Text": "This medicine stops the virus from spreading further inside the body.",
+      "Nuance_Transition": "",
+      "Reference_Link": ""
+    },
+    {
+      "ICD10_ID": "J11.1",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "OSELTAMIVIR",
+      "Route_Icon": "icon_route_oral.png",
+      "Statement_Text": "It is taken as a pill twice a day for 5 days.",
+      "Nuance_Transition": "",
+      "Reference_Link": ""
+    },
+    {
+      "ICD10_ID": "J11.1",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "OSELTAMIVIR",
+      "Route_Icon": "icon_route_oral.png",
+      "Statement_Text": "Nausea occurs in 12.13% of cases and vomiting in 18%, with headache and diarrhea happening less often.",
+      "Nuance_Transition": "",
+      "Reference_Link": ""
+    },
+    {
+      "ICD10_ID": "J11.1",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B4",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "OSELTAMIVIR",
+      "Route_Icon": "icon_route_oral.png",
+      "Statement_Text": "The body processes and breaks down the drug over 1 to 3 hours.",
+      "Nuance_Transition": "",
+      "Reference_Link": ""
+    },
+    {
+      "ICD10_ID": "J11.1",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B4",
+      "Target_Variable": "Renal_Impaired_Severe_ESRD",
+      "Med_Class_ID": "OSELTAMIVIR",
+      "Route_Icon": "icon_route_oral.png",
+      "Statement_Text": "A lower dose is needed because the body takes longer to clear the medicine.",
+      "Nuance_Transition": "",
+      "Reference_Link": ""
+    },
+    {
+      "ICD10_ID": "J11.1",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B1",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "BALOXAVIR",
+      "Route_Icon": "icon_route_oral.png",
+      "Statement_Text": "This medicine blocks the virus from making copies of itself.",
+      "Nuance_Transition": "",
+      "Reference_Link": ""
+    },
+    {
+      "ICD10_ID": "J11.1",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "BALOXAVIR",
+      "Route_Icon": "icon_route_oral.png",
+      "Statement_Text": "It is taken as a single dose based on body weight.",
+      "Nuance_Transition": "",
+      "Reference_Link": ""
+    },
+    {
+      "ICD10_ID": "J11.1",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B2",
+      "Target_Variable": "BMI_Obese_30_Plus",
+      "Med_Class_ID": "BALOXAVIR",
+      "Route_Icon": "icon_route_oral.png",
+      "Statement_Text": "There is a specific 80 mg dose required when body weight is 80 kg or more.",
+      "Nuance_Transition": "",
+      "Reference_Link": ""
+    },
+    {
+      "ICD10_ID": "J11.1",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "BALOXAVIR",
+      "Route_Icon": "icon_route_oral.png",
+      "Statement_Text": "It is handled well, with stomach issues happening in less than 3% of people.",
+      "Nuance_Transition": "",
+      "Reference_Link": ""
+    },
+    {
+      "ICD10_ID": "J11.1",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B4",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "BALOXAVIR",
+      "Route_Icon": "icon_route_oral.png",
+      "Statement_Text": "The medicine stays in the body for up to 79 hours before being cleared.",
+      "Nuance_Transition": "",
+      "Reference_Link": ""
+    },
+    {
+      "ICD10_ID": "J11.1",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B4",
+      "Target_Variable": "Pregnancy_T1",
+      "Med_Class_ID": "BALOXAVIR",
+      "Route_Icon": "icon_route_oral.png",
+      "Statement_Text": "This medicine must not be used due to a lack of safety data.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Chow et al., 2021"
+    },
+    {
+      "ICD10_ID": "J11.1",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B1",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "ZANAMIVIR",
+      "Route_Icon": "",
+      "Statement_Text": "This inhaled medicine stops the virus directly in the breathing tubes.",
+      "Nuance_Transition": "",
+      "Reference_Link": ""
+    },
+    {
+      "ICD10_ID": "J11.1",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "ZANAMIVIR",
+      "Route_Icon": "",
+      "Statement_Text": "It is inhaled twice a day for 5 days.",
+      "Nuance_Transition": "",
+      "Reference_Link": ""
+    },
+    {
+      "ICD10_ID": "J11.1",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "ZANAMIVIR",
+      "Route_Icon": "",
+      "Statement_Text": "A skin rash happens rarely, but airway spasms can occur.",
+      "Nuance_Transition": "",
+      "Reference_Link": ""
+    },
+    {
+      "ICD10_ID": "J11.1",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B4",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "ZANAMIVIR",
+      "Route_Icon": "",
+      "Statement_Text": "It acts locally in the lungs with very little entering the whole body.",
+      "Nuance_Transition": "",
+      "Reference_Link": ""
+    },
+    {
+      "ICD10_ID": "J11.1",
+      "Section_ID": "SEC_05_MNG",
+      "Bullet_ID": "B1",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "",
+      "Route_Icon": "",
+      "Statement_Text": "Eating vegetables like broccoli and cabbage provides natural compounds that help protect the lung walls from damage.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Major et al., 2023"
+    },
+    {
+      "ICD10_ID": "J11.1",
+      "Section_ID": "SEC_05_MNG",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "",
+      "Route_Icon": "",
+      "Statement_Text": "Resting right away helps the body focus all energy on fighting the viral attack.",
+      "Nuance_Transition": "",
+      "Reference_Link": ""
+    },
+    {
+      "ICD10_ID": "J11.1",
+      "Section_ID": "SEC_05_MNG",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "",
+      "Route_Icon": "",
+      "Statement_Text": "Getting a yearly vaccine is the main way to stop the virus before it starts.",
+      "Nuance_Transition": "",
+      "Reference_Link": ""
+    },
+    {
+      "ICD10_ID": "J11.1",
+      "Section_ID": "SEC_05_MNG",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Age_Elderly_65_79y",
+      "Med_Class_ID": "",
+      "Route_Icon": "",
+      "Statement_Text": "High-dose or enhanced vaccines are used to boost the immune system for better protection.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Domnich & De Waure, 2022"
+    },
+    {
+      "ICD10_ID": "J11.1",
+      "Section_ID": "SEC_06_FLG",
+      "Bullet_ID": "B1",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "",
+      "Route_Icon": "icon_warning.png",
+      "Statement_Text": "Seek help for breathing trouble, constant chest pain, confusion, or oxygen levels below 92%.",
+      "Nuance_Transition": "",
+      "Reference_Link": ""
+    },
+    {
+      "ICD10_ID": "J11.1",
+      "Section_ID": "SEC_06_FLG",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "OSELTAMIVIR",
+      "Route_Icon": "icon_warning.png",
+      "Statement_Text": "Watch for sudden confusion or strange behavior, as well as signs of severe liver trouble.",
+      "Nuance_Transition": "",
+      "Reference_Link": ""
+    },
+    {
+      "ICD10_ID": "J11.1",
+      "Section_ID": "SEC_06_FLG",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "BALOXAVIR",
+      "Route_Icon": "icon_warning.png",
+      "Statement_Text": "Watch for severe muscle pain or weakness, which is a rare but serious risk.",
+      "Nuance_Transition": "",
+      "Reference_Link": ""
+    },
+    {
+      "ICD10_ID": "J11.1",
+      "Section_ID": "SEC_06_FLG",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "ZANAMIVIR",
+      "Route_Icon": "icon_warning.png",
+      "Statement_Text": "Watch for sudden tightness in the chest and trouble breathing after inhaling.",
+      "Nuance_Transition": "",
+      "Reference_Link": ""
+    },
+    {
+      "ICD10_ID": "J11.1",
+      "Section_ID": "SEC_06_FLG",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "",
+      "Route_Icon": "icon_warning.png",
+      "Statement_Text": "A medical visit is needed if blood oxygen drops below 92% or breathing becomes very fast.",
+      "Nuance_Transition": "",
+      "Reference_Link": ""
+    },
+    {
+      "ICD10_ID": "J11.1",
+      "Section_ID": "SEC_07_SUC",
+      "Bullet_ID": "B1",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "",
+      "Route_Icon": "",
+      "Statement_Text": "The main goal is to clear the viral load from the body within 24 to 48 hours.",
+      "Nuance_Transition": "",
+      "Reference_Link": ""
+    },
+    {
+      "ICD10_ID": "J11.1",
+      "Section_ID": "SEC_07_SUC",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "",
+      "Route_Icon": "",
+      "Statement_Text": "Treatment normally cuts the time spent with a fever by 10 to 24 hours.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Ji et al., 2025"
+    },
+    {
+      "ICD10_ID": "J11.1",
+      "Section_ID": "SEC_07_SUC",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "",
+      "Route_Icon": "",
+      "Statement_Text": "Completing the treatment and getting a yearly vaccine lowers the chance of severe complications.",
+      "Nuance_Transition": "",
+      "Reference_Link": ""
+    }
+  ]
+}

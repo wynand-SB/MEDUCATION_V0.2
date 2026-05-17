@@ -1,0 +1,488 @@
+{
+  "ExtractionChecklist": {
+    "renal_risks_found": [
+      "AKI",
+      "eGFR 30–60",
+      "eGFR < 30"
+    ],
+    "hepatic_risks_found": [
+      "None"
+    ],
+    "cardiovascular_risks_found": [
+      "Myocardial inflammation",
+      "Cardiovascular disease",
+      "Bradycardia"
+    ],
+    "social_and_race_risks_found": [
+      "Black",
+      "South Asian",
+      "Hispanic",
+      "Deprivation",
+      "Socioeconomic access barriers"
+    ]
+  },
+  "Data": [
+    {
+      "ICD10_ID": "U07.1",
+      "Section_ID": "SEC_01_DEF",
+      "Bullet_ID": "B1",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "",
+      "Statement_Text": "This is a viral respiratory and whole-body disease caused by the SARS-CoV-2 virus, ranging from no symptoms to severe body failure.",
+      "Nuance_Transition": "",
+      "Route_Icon": "",
+      "Reference_Link": "Le et al., 2021"
+    },
+    {
+      "ICD10_ID": "U07.1",
+      "Section_ID": "SEC_01_DEF",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "",
+      "Statement_Text": "The virus enters the cells and can cause a strong inflammatory response, leading to body damage and blood clots.",
+      "Nuance_Transition": "",
+      "Route_Icon": "",
+      "Reference_Link": "Chen et al., 2021"
+    },
+    {
+      "ICD10_ID": "U07.1",
+      "Section_ID": "SEC_01_DEF",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "",
+      "Statement_Text": "Many recover fully, but long-term issues happen 14 to 110 days later for about 80% of people.",
+      "Nuance_Transition": "",
+      "Route_Icon": "",
+      "Reference_Link": "Lopez-León et al., 2021"
+    },
+    {
+      "ICD10_ID": "U07.1",
+      "Section_ID": "SEC_02_ETI",
+      "Bullet_ID": "B1",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "",
+      "Statement_Text": "The main cause is catching the SARS-CoV-2 virus.",
+      "Nuance_Transition": "",
+      "Route_Icon": "",
+      "Reference_Link": "Le et al., 2021"
+    },
+    {
+      "ICD10_ID": "U07.1",
+      "Section_ID": "SEC_02_ETI",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "",
+      "Statement_Text": "Background health issues and certain daily habits greatly raise the chance of serious illness.",
+      "Nuance_Transition": "",
+      "Route_Icon": "",
+      "Reference_Link": "Chenchula et al., 2023"
+    },
+    {
+      "ICD10_ID": "U07.1",
+      "Section_ID": "SEC_02_ETI",
+      "Bullet_ID": "B2",
+      "Target_Variable": "BMI_Obese_30_Plus",
+      "Med_Class_ID": "",
+      "Statement_Text": "There is an independent 1.5 times higher risk of severe disease and a 1.1 times higher risk of death when the body mass index is 30 or higher.",
+      "Nuance_Transition": "",
+      "Route_Icon": "",
+      "Reference_Link": "Singh et al., 2022"
+    },
+    {
+      "ICD10_ID": "U07.1",
+      "Section_ID": "SEC_02_ETI",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "",
+      "Statement_Text": "The body's natural traits play a strong role in how severe the infection becomes.",
+      "Nuance_Transition": "",
+      "Route_Icon": "",
+      "Reference_Link": "Pijls et al., 2021"
+    },
+    {
+      "ICD10_ID": "U07.1",
+      "Section_ID": "SEC_02_ETI",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Age_Elderly_65_79y",
+      "Med_Class_ID": "",
+      "Statement_Text": "Each extra year of age raises the risk of needing a hospital stay by about 3 to 4% and the risk of death by about 6 to 7%.",
+      "Nuance_Transition": "",
+      "Route_Icon": "",
+      "Reference_Link": "Starke et al., 2021"
+    },
+    {
+      "ICD10_ID": "U07.1",
+      "Section_ID": "SEC_02_ETI",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Sex_Male",
+      "Med_Class_ID": "",
+      "Statement_Text": "There is a 1.1 to 1.5 times higher risk of infection, severe disease, intensive care admission, and death.",
+      "Nuance_Transition": "",
+      "Route_Icon": "",
+      "Reference_Link": "Li et al., 2021"
+    },
+    {
+      "ICD10_ID": "U07.1",
+      "Section_ID": "SEC_03_IMP",
+      "Bullet_ID": "B1",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "",
+      "Statement_Text": "Fever, breathing problems, feeling very tired, head pain, and muscle pain are common signs.",
+      "Nuance_Transition": "",
+      "Route_Icon": "",
+      "Reference_Link": "Struyf et al., 2020"
+    },
+    {
+      "ICD10_ID": "U07.1",
+      "Section_ID": "SEC_03_IMP",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "",
+      "Statement_Text": "Severe cases cause shock and breathing issues, which strongly block the ability to recover.",
+      "Nuance_Transition": "",
+      "Route_Icon": "",
+      "Reference_Link": "Le et al., 2021"
+    },
+    {
+      "ICD10_ID": "U07.1",
+      "Section_ID": "SEC_03_IMP",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "",
+      "Statement_Text": "The lingering effects can lead to problems with attention and mood that last for months.",
+      "Nuance_Transition": "",
+      "Route_Icon": "",
+      "Reference_Link": "Lopez-León et al., 2021"
+    },
+    {
+      "ICD10_ID": "U07.1",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B1",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "NIRMATRELVIR_RITONAVIR",
+      "Statement_Text": "This medicine stops the virus from copying itself while keeping the drug active longer in the body.",
+      "Nuance_Transition": "",
+      "Route_Icon": "",
+      "Reference_Link": "Gerhart et al., 2024"
+    },
+    {
+      "ICD10_ID": "U07.1",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "NIRMATRELVIR_RITONAVIR",
+      "Statement_Text": "Take 300 milligrams of the main drug and 100 milligrams of the booster every 12 hours for 5 days.",
+      "Nuance_Transition": "",
+      "Route_Icon": "icon_route_oral.png",
+      "Reference_Link": "Hammond et al., 2022"
+    },
+    {
+      "ICD10_ID": "U07.1",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Renal_Impaired_Mild_Moderate",
+      "Med_Class_ID": "NIRMATRELVIR_RITONAVIR",
+      "Statement_Text": "The dose must be lowered to 150 milligrams of the main drug and 100 milligrams of the booster every 12 hours for 5 days.",
+      "Nuance_Transition": "OVERRIDE",
+      "Route_Icon": "icon_route_oral.png",
+      "Reference_Link": "Gerhart et al., 2024"
+    },
+    {
+      "ICD10_ID": "U07.1",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Renal_Impaired_Severe_ESRD",
+      "Med_Class_ID": "NIRMATRELVIR_RITONAVIR",
+      "Statement_Text": "This medicine must not be used.",
+      "Nuance_Transition": "OVERRIDE",
+      "Route_Icon": "icon_warning.png",
+      "Reference_Link": "Gerhart et al., 2024"
+    },
+    {
+      "ICD10_ID": "U07.1",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "NIRMATRELVIR_RITONAVIR",
+      "Statement_Text": "About 5 to 6% of people get a bad taste in the mouth, 3% get stomach issues, and 1% get changes in blood pressure.",
+      "Nuance_Transition": "",
+      "Route_Icon": "",
+      "Reference_Link": "Hammond et al., 2022"
+    },
+    {
+      "ICD10_ID": "U07.1",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B4",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "NIRMATRELVIR_RITONAVIR",
+      "Statement_Text": "The liver breaks down the medicine over a few hours, but it strongly interacts with many other drugs like blood thinners.",
+      "Nuance_Transition": "",
+      "Route_Icon": "",
+      "Reference_Link": "Gerhart et al., 2024"
+    },
+    {
+      "ICD10_ID": "U07.1",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B1",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "DEXAMETHASONE",
+      "Statement_Text": "This medicine lowers the strong inflammatory response and protects the breathing organs from damage.",
+      "Nuance_Transition": "",
+      "Route_Icon": "",
+      "Reference_Link": "Meybodi et al., 2024"
+    },
+    {
+      "ICD10_ID": "U07.1",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "DEXAMETHASONE",
+      "Statement_Text": "A 6 milligram dose is taken every day by mouth or vein, but only for severe illness needing extra oxygen.",
+      "Nuance_Transition": "",
+      "Route_Icon": "",
+      "Reference_Link": "Chen et al., 2021"
+    },
+    {
+      "ICD10_ID": "U07.1",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "DEXAMETHASONE",
+      "Statement_Text": "It can cause changes in blood sugar, stomach lining issues, and extra fluid build-up.",
+      "Nuance_Transition": "",
+      "Route_Icon": "",
+      "Reference_Link": "Chen et al., 2021"
+    },
+    {
+      "ICD10_ID": "U07.1",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B4",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "DEXAMETHASONE",
+      "Statement_Text": "It changes how the body handles sugar and immune responses, requiring careful watching.",
+      "Nuance_Transition": "",
+      "Route_Icon": "",
+      "Reference_Link": "Chen et al., 2021"
+    },
+    {
+      "ICD10_ID": "U07.1",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B1",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "REMDESIVIR",
+      "Statement_Text": "This medicine blocks the virus from making more copies of its genetic material.",
+      "Nuance_Transition": "",
+      "Route_Icon": "",
+      "Reference_Link": "Gerhart et al., 2024"
+    },
+    {
+      "ICD10_ID": "U07.1",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "REMDESIVIR",
+      "Statement_Text": "A 200 milligram dose is given by vein on the first day, followed by 100 milligrams daily for up to 9 more days.",
+      "Nuance_Transition": "",
+      "Route_Icon": "",
+      "Reference_Link": "Hsu et al., 2021"
+    },
+    {
+      "ICD10_ID": "U07.1",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "REMDESIVIR",
+      "Statement_Text": "A percentage of people experience filtering organ issues, sudden injury to these organs, and heart rhythm changes.",
+      "Nuance_Transition": "",
+      "Route_Icon": "",
+      "Reference_Link": "Da Silva et al., 2021"
+    },
+    {
+      "ICD10_ID": "U07.1",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B4",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "REMDESIVIR",
+      "Statement_Text": "The body processes it through the liver and filtering organs, so heart and organ health must be watched.",
+      "Nuance_Transition": "",
+      "Route_Icon": "",
+      "Reference_Link": "Da Silva et al., 2021"
+    },
+    {
+      "ICD10_ID": "U07.1",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B1",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "TOCILIZUMAB",
+      "Statement_Text": "This medicine blocks a specific signal in the body to lower body-wide swelling.",
+      "Nuance_Transition": "",
+      "Route_Icon": "",
+      "Reference_Link": "Pollini et al., 2023"
+    },
+    {
+      "ICD10_ID": "U07.1",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "TOCILIZUMAB",
+      "Statement_Text": "An 8 milligram per kilogram dose is given by vein, with a possible second dose if the illness gets worse.",
+      "Nuance_Transition": "",
+      "Route_Icon": "",
+      "Reference_Link": "Rosas et al., 2021"
+    },
+    {
+      "ICD10_ID": "U07.1",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "TOCILIZUMAB",
+      "Statement_Text": "Rarely, it can cause issues in the digestive tract, low clotting proteins, and high fat levels in the blood.",
+      "Nuance_Transition": "",
+      "Route_Icon": "",
+      "Reference_Link": "Pollini et al., 2023"
+    },
+    {
+      "ICD10_ID": "U07.1",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B4",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "TOCILIZUMAB",
+      "Statement_Text": "It changes how the immune system works and how the body handles fats in the blood.",
+      "Nuance_Transition": "",
+      "Route_Icon": "",
+      "Reference_Link": "Pollini et al., 2023"
+    },
+    {
+      "ICD10_ID": "U07.1",
+      "Section_ID": "SEC_05_MNG",
+      "Bullet_ID": "B1",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "",
+      "Statement_Text": "Taking certain nutrients and gut-health therapies is linked to better mood and less tiredness.",
+      "Nuance_Transition": "",
+      "Route_Icon": "",
+      "Reference_Link": "Bigman et al., 2025"
+    },
+    {
+      "ICD10_ID": "U07.1",
+      "Section_ID": "SEC_05_MNG",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "",
+      "Statement_Text": "Lying on the stomach helps improve oxygen levels, while early moving and breathing exercises speed up recovery.",
+      "Nuance_Transition": "",
+      "Route_Icon": "",
+      "Reference_Link": "Malik et al., 2020"
+    },
+    {
+      "ICD10_ID": "U07.1",
+      "Section_ID": "SEC_05_MNG",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "",
+      "Statement_Text": "Keeping a calm space helps manage the mental stress of a long recovery.",
+      "Nuance_Transition": "",
+      "Route_Icon": "",
+      "Reference_Link": "Pollini et al., 2023"
+    },
+    {
+      "ICD10_ID": "U07.1",
+      "Section_ID": "SEC_06_FLG",
+      "Bullet_ID": "B1",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "",
+      "Statement_Text": "Seek help right away for worsening breathlessness, a high fever that does not go away, new confusion, or falling oxygen levels.",
+      "Nuance_Transition": "",
+      "Route_Icon": "icon_warning.png",
+      "Reference_Link": "Greenhalgh et al., 2020"
+    },
+    {
+      "ICD10_ID": "U07.1",
+      "Section_ID": "SEC_06_FLG",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "NIRMATRELVIR_RITONAVIR",
+      "Statement_Text": "Do not take this with certain cholesterol drugs, blood thinners, or calming medicines due to severe interactions.",
+      "Nuance_Transition": "",
+      "Route_Icon": "icon_warning.png",
+      "Reference_Link": "Marzolini et al., 2022"
+    },
+    {
+      "ICD10_ID": "U07.1",
+      "Section_ID": "SEC_06_FLG",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "DEXAMETHASONE",
+      "Statement_Text": "Taking this for mild illness can make the infection worse and increase the amount of virus in the body.",
+      "Nuance_Transition": "",
+      "Route_Icon": "icon_warning.png",
+      "Reference_Link": "Salem, 2020"
+    },
+    {
+      "ICD10_ID": "U07.1",
+      "Section_ID": "SEC_06_FLG",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "REMDESIVIR",
+      "Statement_Text": "Watch for a suddenly slow heart rhythm or signs of failing filters like making less urine.",
+      "Nuance_Transition": "",
+      "Route_Icon": "icon_warning.png",
+      "Reference_Link": "Da Silva et al., 2021"
+    },
+    {
+      "ICD10_ID": "U07.1",
+      "Section_ID": "SEC_06_FLG",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "TOCILIZUMAB",
+      "Statement_Text": "Watch for severe stomach pain which could mean an issue with the digestive tract.",
+      "Nuance_Transition": "",
+      "Route_Icon": "icon_warning.png",
+      "Reference_Link": "Pollini et al., 2023"
+    },
+    {
+      "ICD10_ID": "U07.1",
+      "Section_ID": "SEC_06_FLG",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "",
+      "Statement_Text": "Watch for oxygen levels falling below normal ranges and changes in inflammatory markers.",
+      "Nuance_Transition": "",
+      "Route_Icon": "",
+      "Reference_Link": "Milenković et al., 2022"
+    },
+    {
+      "ICD10_ID": "U07.1",
+      "Section_ID": "SEC_07_SUC",
+      "Bullet_ID": "B1",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "",
+      "Statement_Text": "The aim is to prevent body failure and clear the virus from the body.",
+      "Nuance_Transition": "",
+      "Route_Icon": "",
+      "Reference_Link": "Le et al., 2021"
+    },
+    {
+      "ICD10_ID": "U07.1",
+      "Section_ID": "SEC_07_SUC",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "",
+      "Statement_Text": "Success means breathing easily again and getting energy back over time.",
+      "Nuance_Transition": "",
+      "Route_Icon": "",
+      "Reference_Link": "Pollini et al., 2023"
+    },
+    {
+      "ICD10_ID": "U07.1",
+      "Section_ID": "SEC_07_SUC",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "",
+      "Statement_Text": "Following up on heart and breathing health protects the body from future issues related to the infection.",
+      "Nuance_Transition": "",
+      "Route_Icon": "",
+      "Reference_Link": "Fadul et al., 2025"
+    }
+  ]
+}

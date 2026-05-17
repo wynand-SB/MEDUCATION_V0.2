@@ -1,0 +1,441 @@
+{
+  "ExtractionChecklist": {
+    "renal_risks_found": [
+      "eGFR formula shifts",
+      "CKD-EPI preferred"
+    ],
+    "hepatic_risks_found": [
+      "dose-dependent hepatotoxicity",
+      "chronic pediatric exposure over 75mg/kg/day"
+    ],
+    "cardiovascular_risks_found": [
+      "None"
+    ],
+    "social_and_race_risks_found": [
+      "indoor aerosol concentration",
+      "vitamin D deficiency",
+      "geriatric anticholinergic burden",
+      "female adolescent OTC access toxicity"
+    ]
+  },
+  "Data": [
+    {
+      "ICD10_ID": "J00",
+      "Section_ID": "SEC_01_DEF",
+      "Bullet_ID": "B1",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "",
+      "Statement_Text": "This is a common, short-term infection of the nose and throat.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Bichiri et al., 2021",
+      "Route_Icon": ""
+    },
+    {
+      "ICD10_ID": "J00",
+      "Section_ID": "SEC_01_DEF",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "",
+      "Statement_Text": "The virus attaches to specific areas inside the nose, causing a chain of swelling and mucus production rather than directly destroying tissue.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Hulisz, 2004",
+      "Route_Icon": ""
+    },
+    {
+      "ICD10_ID": "J00",
+      "Section_ID": "SEC_01_DEF",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "",
+      "Statement_Text": "The infection normally clears up on its own after a few days without needing strong medical treatment.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Andrup et al., 2022",
+      "Route_Icon": ""
+    },
+    {
+      "ICD10_ID": "J00",
+      "Section_ID": "SEC_02_ETI",
+      "Bullet_ID": "B1",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "",
+      "Statement_Text": "The main cause is a specific virus family that accounts for 50 to 80 percent of all cases.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Bichiri et al., 2021",
+      "Route_Icon": ""
+    },
+    {
+      "ICD10_ID": "J00",
+      "Section_ID": "SEC_02_ETI",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "",
+      "Statement_Text": "Breathing in infected droplets is the main way the virus spreads.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Andrup et al., 2022",
+      "Route_Icon": ""
+    },
+    {
+      "ICD10_ID": "J00",
+      "Section_ID": "SEC_02_ETI",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Age_Child_4_12y",
+      "Med_Class_ID": "",
+      "Statement_Text": "Not taking 400 to 1000 units of vitamin D daily creates a proven risk of catching respiratory infections.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Jolliffe et al., 2021",
+      "Route_Icon": ""
+    },
+    {
+      "ICD10_ID": "J00",
+      "Section_ID": "SEC_02_ETI",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "",
+      "Statement_Text": "Other circulating viruses can cause the exact same illness and signs.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Geppe et al., 2023",
+      "Route_Icon": ""
+    },
+    {
+      "ICD10_ID": "J00",
+      "Section_ID": "SEC_03_IMP",
+      "Bullet_ID": "B1",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "",
+      "Statement_Text": "Common signs include a runny nose, a blocked nose, a sore throat, coughing, and feeling tired all over.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Jacek et al., 2021",
+      "Route_Icon": ""
+    },
+    {
+      "ICD10_ID": "J00",
+      "Section_ID": "SEC_03_IMP",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "",
+      "Statement_Text": "The symptoms can make it hard to focus or work normally for several days.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Yao et al., 2022",
+      "Route_Icon": ""
+    },
+    {
+      "ICD10_ID": "J00",
+      "Section_ID": "SEC_03_IMP",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "",
+      "Statement_Text": "Feeling constantly unwell and tired can cause temporary frustration and low energy levels.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Jacek et al., 2021",
+      "Route_Icon": ""
+    },
+    {
+      "ICD10_ID": "J00",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B1",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "PARACETAMOL",
+      "Statement_Text": "This medicine blocks signals in the body to reduce pain and lower fever.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Mazaleuskaya et al., 2015",
+      "Route_Icon": "icon_route_oral.png"
+    },
+    {
+      "ICD10_ID": "J00",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "PARACETAMOL",
+      "Statement_Text": "It is used to safely ease discomfort and lower a high temperature.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Mazaleuskaya et al., 2015",
+      "Route_Icon": "icon_route_oral.png"
+    },
+    {
+      "ICD10_ID": "J00",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "PARACETAMOL",
+      "Statement_Text": "Severe side effects are rare and happen in less than 1 percent of cases when taken correctly.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Mazaleuskaya et al., 2015",
+      "Route_Icon": "icon_warning.png"
+    },
+    {
+      "ICD10_ID": "J00",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B4",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "PARACETAMOL",
+      "Statement_Text": "The body breaks down the medicine over a few hours. The maximum safe amount is 4 grams per day.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Mazaleuskaya et al., 2015",
+      "Route_Icon": ""
+    },
+    {
+      "ICD10_ID": "J00",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B4",
+      "Target_Variable": "Age_Child_4_12y",
+      "Med_Class_ID": "PARACETAMOL",
+      "Statement_Text": "The safe limit is strictly between 50 and 75 milligrams per kilogram of body weight per day.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Mazaleuskaya et al., 2015",
+      "Route_Icon": ""
+    },
+    {
+      "ICD10_ID": "J00",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B4",
+      "Target_Variable": "Hepatic_Impaired",
+      "Med_Class_ID": "PARACETAMOL",
+      "Statement_Text": "Taking more than 75 milligrams per kilogram per day for 2 or more days creates a high risk of severe liver damage.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Mazaleuskaya et al., 2015",
+      "Route_Icon": "icon_warning.png"
+    },
+    {
+      "ICD10_ID": "J00",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B1",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "IBUPROFEN",
+      "Statement_Text": "This medicine stops the body from making chemicals that cause pain and swelling.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Houlind et al., 2018",
+      "Route_Icon": "icon_route_oral.png"
+    },
+    {
+      "ICD10_ID": "J00",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "IBUPROFEN",
+      "Statement_Text": "It is taken to reduce swelling, ease body pain, and lower a fever.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Houlind et al., 2018",
+      "Route_Icon": "icon_route_oral.png"
+    },
+    {
+      "ICD10_ID": "J00",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "IBUPROFEN",
+      "Statement_Text": "Stomach upset is a common side effect that happens in more than 10 percent of cases.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Houlind et al., 2018",
+      "Route_Icon": "icon_warning.png"
+    },
+    {
+      "ICD10_ID": "J00",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B4",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "IBUPROFEN",
+      "Statement_Text": "The body must actively filter and clear this medicine.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Houlind et al., 2018",
+      "Route_Icon": ""
+    },
+    {
+      "ICD10_ID": "J00",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B4",
+      "Target_Variable": "Renal_Impaired_Mild_Moderate",
+      "Med_Class_ID": "IBUPROFEN",
+      "Statement_Text": "There is a 30 percent chance of needing a lower dose based on exact kidney function calculations.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Houlind et al., 2018",
+      "Route_Icon": "icon_warning.png"
+    },
+    {
+      "ICD10_ID": "J00",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B1",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "ZINC GLUCONATE",
+      "Statement_Text": "This medicine physically blocks the virus from attaching and copying itself inside the nose.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Hulisz, 2004",
+      "Route_Icon": "icon_route_oral.png"
+    },
+    {
+      "ICD10_ID": "J00",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "ZINC GLUCONATE",
+      "Statement_Text": "It is used to shorten the amount of time the illness lasts.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Hunter et al., 2021",
+      "Route_Icon": "icon_route_oral.png"
+    },
+    {
+      "ICD10_ID": "J00",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "ZINC GLUCONATE",
+      "Statement_Text": "A bad taste happens in 60 to 80 percent of cases, and nausea happens in 20 to 29 percent of cases.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Mossad et al., 1996",
+      "Route_Icon": "icon_warning.png"
+    },
+    {
+      "ICD10_ID": "J00",
+      "Section_ID": "SEC_04_TX",
+      "Bullet_ID": "B4",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "ZINC GLUCONATE",
+      "Statement_Text": "The body processes the mineral easily without requiring complex medical adjustments.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Hulisz, 2004",
+      "Route_Icon": ""
+    },
+    {
+      "ICD10_ID": "J00",
+      "Section_ID": "SEC_05_MNG",
+      "Bullet_ID": "B1",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "",
+      "Statement_Text": "Taking 400 to 1000 units of vitamin D daily helps protect the body from catching the infection.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Jolliffe et al., 2021",
+      "Route_Icon": ""
+    },
+    {
+      "ICD10_ID": "J00",
+      "Section_ID": "SEC_05_MNG",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "",
+      "Statement_Text": "Getting enough rest allows the body to fight off the virus faster and return to normal activity.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Yao et al., 2022",
+      "Route_Icon": ""
+    },
+    {
+      "ICD10_ID": "J00",
+      "Section_ID": "SEC_05_MNG",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "",
+      "Statement_Text": "Keeping indoor air fresh and well-circulated is the best way to stop the virus from spreading.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Andrup et al., 2022",
+      "Route_Icon": ""
+    },
+    {
+      "ICD10_ID": "J00",
+      "Section_ID": "SEC_06_FLG",
+      "Bullet_ID": "B1",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "",
+      "Statement_Text": "A runny nose strongly points to a viral illness.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Duan et al., 2021",
+      "Route_Icon": "icon_warning.png"
+    },
+    {
+      "ICD10_ID": "J00",
+      "Section_ID": "SEC_06_FLG",
+      "Bullet_ID": "B1",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "",
+      "Statement_Text": "The absence of a runny nose combined with an inflammation marker above 22 mg/L and procalcitonin above 0.18 ng/mL points to a bacterial infection.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Duan et al., 2021",
+      "Route_Icon": "icon_warning.png"
+    },
+    {
+      "ICD10_ID": "J00",
+      "Section_ID": "SEC_06_FLG",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "PARACETAMOL",
+      "Statement_Text": "There is a strict warning against taking too much of this medicine to prevent severe internal damage.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Mazaleuskaya et al., 2015",
+      "Route_Icon": "icon_warning.png"
+    },
+    {
+      "ICD10_ID": "J00",
+      "Section_ID": "SEC_06_FLG",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Age_Adolescent_13_18y",
+      "Med_Class_ID": "PARACETAMOL",
+      "Statement_Text": "Easy access to non-prescription medicines creates a proven risk of accidental overdose toxicity.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Chidiac et al., 2023",
+      "Route_Icon": "icon_warning.png"
+    },
+    {
+      "ICD10_ID": "J00",
+      "Section_ID": "SEC_06_FLG",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "ANTIHISTAMINES",
+      "Statement_Text": "These older allergy medicines can dry out mucus and cause drowsiness.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Cho et al., 2018",
+      "Route_Icon": "icon_warning.png"
+    },
+    {
+      "ICD10_ID": "J00",
+      "Section_ID": "SEC_06_FLG",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Age_Elderly_65_79y",
+      "Med_Class_ID": "ANTIHISTAMINES",
+      "Statement_Text": "There is a 2.03 times higher chance of falling and getting seriously hurt from bone fractures due to how the medicine affects the brain.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Cho et al., 2018",
+      "Route_Icon": "icon_warning.png"
+    },
+    {
+      "ICD10_ID": "J00",
+      "Section_ID": "SEC_06_FLG",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "",
+      "Statement_Text": "High levels of procalcitonin in blood tests can simply mean the viral infection is severe, not always that a separate bacterial problem has started.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Gautam et al., 2020",
+      "Route_Icon": ""
+    },
+    {
+      "ICD10_ID": "J00",
+      "Section_ID": "SEC_07_SUC",
+      "Bullet_ID": "B1",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "",
+      "Statement_Text": "The main goal is to carefully align medicine doses with exact organ function levels to prevent harm.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Delanaye et al., 2021",
+      "Route_Icon": ""
+    },
+    {
+      "ICD10_ID": "J00",
+      "Section_ID": "SEC_07_SUC",
+      "Bullet_ID": "B2",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "",
+      "Statement_Text": "Symptoms and the overall illness should last about 2 days less with the right medical support.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Hunter et al., 2021",
+      "Route_Icon": ""
+    },
+    {
+      "ICD10_ID": "J00",
+      "Section_ID": "SEC_07_SUC",
+      "Bullet_ID": "B3",
+      "Target_Variable": "Universal_Statement",
+      "Med_Class_ID": "",
+      "Statement_Text": "The virus clears completely from the body faster, dropping from 9.4 days down to 7.6 days.",
+      "Nuance_Transition": "",
+      "Reference_Link": "Fazekas et al., 2012",
+      "Route_Icon": ""
+    }
+  ]
+}
