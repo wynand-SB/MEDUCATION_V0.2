@@ -1,4 +1,4 @@
-# med_engine.py - VERSION 11.5 - CLOUD-READY OS-AGNOSTIC PATHING
+# med_engine.py - VERSION 11.6 - CLOUD-READY & IMPORT PATCH
 import os
 import jinja2
 import base64
@@ -8,15 +8,18 @@ import platform
 from pydantic import BaseModel
 from typing import List, Dict, Any, Tuple
 from html2image import Html2Image
-from PIL import Image
+from PIL import Image, ImageChops
 from config import CARD_STYLE_OVERRIDES, GLOBAL_STYLE, HEADER_STYLE, FOOTER_STYLE
 
 class BulletNuance(BaseModel):
     target_variable: str; statement_text: str; caregiver_statement: str; nuance_transition: str; priority: int = 999
+
 class BulletData(BaseModel):
     primary_text: str; sub_bullets: List[str]; icon_name: str = None
+
 class SectionBlock(BaseModel):
     section_id: str; bullets: List[BulletData]
+
 class InfographicContent(BaseModel):
     blocks: List[SectionBlock]; indication_name: str; indication_aka: str = ""; indication_code: str; references: List[str] = []
 
@@ -44,55 +47,65 @@ def apply_hierarchical_logic(u_row: Dict[str, Any], nuances: List[BulletNuance],
     return primary, subs
 
 class BrandedMobileEngine:
-    def __init__(self, content: InfographicContent, brand_data: Dict[str, Any]):
+    def __init__(self, content: InfographicContent, brand_data: dict = None):
         self.content = content
-        self.brand = brand_data
-        self.template_loader = jinja2.FileSystemLoader(searchpath="./")
-        self.template_env = jinja2.Environment(loader=self.template_loader)
-        self.all_icons = self._hunt_for_assets()
+        self.brand_data = brand_data or {}
 
-    def _hunt_for_assets(self) -> Dict[str, str]:
-        found = {}
-        assets_dir = "assets"
-        if not os.path.exists(assets_dir): return found
-        
-        for file in os.listdir(assets_dir):
-            if file.lower().endswith(('.png', '.svg', '.jpg', '.jpeg')):
-                path = os.path.join(assets_dir, file)
-                with open(path, "rb") as f:
-                    b64 = base64.b64encode(f.read()).decode('utf-8')
-                    ext = file.split('.')[-1].lower()
-                    mime = "image/svg+xml" if ext == 'svg' else f"image/{ext}"
-                    found[file] = f"data:{mime};base64,{b64}"
-        return found
+        # Aggressive search for the brand logos
+        self.b64_assets = {
+            "logo": self._get_base64_image(self.brand_data.get("assets", {}).get("practice_logo", "logo.png")),
+            "doctor": self._get_base64_image(self.brand_data.get("assets", {}).get("doctor_headshot", "doctor.png")),
+            "header_bg": self._get_base64_image(self.brand_data.get("assets", {}).get("header_bg", "header_bg.png")),
+            "meducation_logo": self._get_base64_image("brand_logo.png") or self._get_base64_image("meducation_logo.png") or self._get_base64_image("brand_logo.jpg.jpg")
+        }
 
-    def draw(self) -> Image.Image:
-        template = self.template_env.get_template("infographic_template.html")
+        icon_list = ["icon_def.png", "icon_eti.png", "icon_imp.png", "icon_tx.png", "icon_mng.png", 
+                     "icon_flg.png", "icon_suc.png", "icon_diet.png", "icon_active.png", "icon_env.png", "icon_warning.png", "icon_route_oral.png"]
+        self.all_icons = {icon: self._get_base64_image(icon) for icon in icon_list}
+
+        template_loader = jinja2.FileSystemLoader(searchpath=os.path.dirname(os.path.abspath(__file__)))
+        self.env = jinja2.Environment(loader=template_loader)
+
+    def _get_base64_image(self, filename: str) -> str:
+        if not filename: return ""
+        base_dir = os.path.dirname(os.path.abspath(__file__))
+        cwd = os.getcwd()
+        search_paths = [os.path.join(cwd, filename), os.path.join(cwd, "assets", filename),
+                        os.path.join(cwd, "data", filename), os.path.join(base_dir, filename), 
+                        os.path.join(base_dir, "assets", filename), filename]
+        for path in search_paths:
+            if os.path.exists(path):
+                with open(path, "rb") as img_file:
+                    b64_string = base64.b64encode(img_file.read()).decode('utf-8')
+                    mime = "image/jpeg" if path.lower().endswith(('.jpg', '.jpeg')) else "image/png"
+                    return f"data:{mime};base64,{b64_string}"
+        return "" 
+
+    def draw(self, output_filename="render_output.png") -> Image.Image:
+        template = self.env.get_template("infographic_template.html")
         
         safe_config = {}
-        for block in self.content.blocks:
-            sid = block.section_id
-            safe_config[sid] = {
-                "label_text": str(CARD_STYLE_OVERRIDES.get(sid, {}).get("label_text", sid)),
-                "icon_file": str(CARD_STYLE_OVERRIDES.get(sid, {}).get("icon_file", "")),
-                "card_bg_color": str(CARD_STYLE_OVERRIDES.get(sid, {}).get("card_bg_color", "#FFFFFF")),
-                "border_color": str(CARD_STYLE_OVERRIDES.get(sid, {}).get("border_color", "#E2E8F0")),
-                "label_color": str(CARD_STYLE_OVERRIDES.get(sid, {}).get("label_color", "#1E293B")),
-                "p_bullet_color": str(CARD_STYLE_OVERRIDES.get(sid, {}).get("p_bullet_color", "#1A1A1A")),
-                "s_bullet_color": str(CARD_STYLE_OVERRIDES.get(sid, {}).get("s_bullet_color", "#475569"))
-            }
+        for sec_id, cfg in CARD_STYLE_OVERRIDES.items():
+            safe_config[sec_id] = {}
+            for key, val in cfg.items():
+                if "color" in key and isinstance(val, list) and len(val) == 3:
+                    safe_config[sec_id][key] = f"rgb({val[0]}, {val[1]}, {val[2]})"
+                else: safe_config[sec_id][key] = val
+            
+            if sec_id == "SEC_06_FLG" and "s_bullet_color" not in safe_config[sec_id]:
+                safe_config[sec_id]["s_bullet_color"] = safe_config[sec_id].get("p_bullet_color", "#DC3545")
 
         html_string = template.render(
-            content=self.content, assets=self.all_icons, config=safe_config, all_icons=self.all_icons,
+            content=self.content, brand=self.brand_data, assets=self.b64_assets,
+            config=safe_config, all_icons=self.all_icons,
             global_style=GLOBAL_STYLE, header_style=HEADER_STYLE, footer_style=FOOTER_STYLE
         )
         
-        # THE FIX: OS-Agnostic Headless Browser Configuration
+        # OS-Agnostic Headless Browser Configuration
         if platform.system() == "Windows":
             chrome_path, edge_path = r"C:\Program Files\Google\Chrome\Application\chrome.exe", r"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
             hti = Html2Image(browser_executable=chrome_path) if os.path.exists(chrome_path) else Html2Image(browser_executable=edge_path) if os.path.exists(edge_path) else Html2Image()
         else:
-            # Streamlit Cloud (Debian Linux) path mapping
             hti = Html2Image(browser_executable='/usr/bin/chromium')
             
         hti.size = (1080, 4000) 
@@ -116,11 +129,11 @@ class BrandedMobileEngine:
                     try: os.remove(temp_file)
                     except: pass
                     
-        # Crop empty space at the bottom
-        bg = Image.new(img.mode, img.size, img.getpixel((0, img.height - 1)))
+        # Crop empty space at the bottom (Now properly using ImageChops)
+        bg = Image.new(img.mode, img.size, (255, 255, 255))
         diff = ImageChops.difference(img, bg)
         diff = ImageChops.add(diff, diff, 2.0, -100)
         bbox = diff.getbbox()
-        if bbox: img = img.crop((0, 0, img.width, bbox[3] + 40))
+        if bbox: img = img.crop((0, 0, 1080, bbox[3] + 40))
             
         return img
